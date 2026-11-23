@@ -1,0 +1,44 @@
+{
+  "method": "Separable constant-coefficient reference; centered conservative x-fluxes and Crank-Nicolson; exact transverse cosine evolution; Gauss cell-average initialization. Not an exact PDE solution.",
+  "spatial_and_temporal_refinement": [
+    {
+      "nx": 3200,
+      "dt_max": 0.1,
+      "relative_l2_vs_finest": 7.760539401058914e-05,
+      "final_relative_l2_vs_finest": 0.0001455865324680685,
+      "mass_budget": 3.158751848894098e-13,
+      "minimum": 0.0
+    },
+    {
+      "nx": 6400,
+      "dt_max": 0.1,
+      "relative_l2_vs_finest": 2.897309231776345e-05,
+      "final_relative_l2_vs_finest": 5.442605110497882e-05,
+      "mass_budget": 8.663018241648923e-13,
+      "minimum": 0.0
+    },
+    {
+      "nx": 12800,
+      "dt_max": 0.1,
+      "relative_l2_vs_finest": 1.682919614524739e-05,
+      "final_relative_l2_vs_finest": 3.16541259627522e-05,
+      "mass_budget": 2.770815675006557e-12,
+      "minimum": -6.516319780164359e-28
+    },
+    {
+      "nx": 12800,
+      "dt_max": 0.05,
+      "relative_l2_vs_finest": 0.0,
+      "final_relative_l2_vs_finest": 0.0,
+      "mass_budget": 7.677556742866205e-12,
+      "minimum": -5e-324
+    }
+  ],
+  "fvm800_vs_refined_spacetime": 0.0332718606043232,
+  "fvm800_vs_refined_final": 0.06798952963746664,
+  "neural_center_samples_vs_refined_cell_averages_spacetime": 0.028356535209422,
+  "neural_center_samples_vs_refined_cell_averages_final": 0.04952085123945109,
+  "sampling_caveat": "Legacy metrics compare neural cell-centre samples with FVM cell averages. Additional neural Gauss cell averages are compared below.",
+  "neural_gauss_averages_vs_refined_spacetime": 0.028591298549863583,
+  "neural_gauss_averages_vs_refined_final": 0.04973833186346948
+}

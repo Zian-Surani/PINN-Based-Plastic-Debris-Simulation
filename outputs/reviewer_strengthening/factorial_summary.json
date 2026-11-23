@@ -1,0 +1,141 @@
+{
+  "groups": [
+    {
+      "scope": "supported",
+      "pde_weight": 0,
+      "mass_snapshot_weight": 0,
+      "cases": 36,
+      "mean_refined_l2": 0.05070882523928147,
+      "max_refined_l2": 0.06326969833959642,
+      "mean_upwind_l2": 0.02052764827586424,
+      "max_mass_budget": 0.0049833708740572875
+    },
+    {
+      "scope": "supported",
+      "pde_weight": 0,
+      "mass_snapshot_weight": 20,
+      "cases": 36,
+      "mean_refined_l2": 0.052158419290829997,
+      "max_refined_l2": 0.06521115470266509,
+      "mean_upwind_l2": 0.02210040227410358,
+      "max_mass_budget": 0.005275010833486059
+    },
+    {
+      "scope": "supported",
+      "pde_weight": 4,
+      "mass_snapshot_weight": 0,
+      "cases": 36,
+      "mean_refined_l2": 0.026277122956973722,
+      "max_refined_l2": 0.03384588160165843,
+      "mean_upwind_l2": 0.012892093888436418,
+      "max_mass_budget": 0.00806893750950288
+    },
+    {
+      "scope": "supported",
+      "pde_weight": 4,
+      "mass_snapshot_weight": 20,
+      "cases": 36,
+      "mean_refined_l2": 0.029164936107672665,
+      "max_refined_l2": 0.03755801311269003,
+      "mean_upwind_l2": 0.01208137651643457,
+      "max_mass_budget": 0.008448066226352934
+    },
+    {
+      "scope": "holdout",
+      "pde_weight": 0,
+      "mass_snapshot_weight": 0,
+      "cases": 24,
+      "mean_refined_l2": 0.05062589855365696,
+      "max_refined_l2": 0.062022276302088,
+      "mean_upwind_l2": 0.020381769379252974,
+      "max_mass_budget": 0.004190645871109437
+    },
+    {
+      "scope": "holdout",
+      "pde_weight": 0,
+      "mass_snapshot_weight": 20,
+      "cases": 24,
+      "mean_refined_l2": 0.05206231601271216,
+      "max_refined_l2": 0.0638037884060709,
+      "mean_upwind_l2": 0.02193647577289856,
+      "max_mass_budget": 0.004513939296606479
+    },
+    {
+      "scope": "holdout",
+      "pde_weight": 4,
+      "mass_snapshot_weight": 0,
+      "cases": 24,
+      "mean_refined_l2": 0.026029820766614017,
+      "max_refined_l2": 0.0322704398325005,
+      "mean_upwind_l2": 0.012517063910519316,
+      "max_mass_budget": 0.006389519905636654
+    },
+    {
+      "scope": "holdout",
+      "pde_weight": 4,
+      "mass_snapshot_weight": 20,
+      "cases": 24,
+      "mean_refined_l2": 0.028922846073512823,
+      "max_refined_l2": 0.03518260659734472,
+      "mean_upwind_l2": 0.011598659763698909,
+      "max_mass_budget": 0.007342517155676183
+    }
+  ],
+  "paired_seed_effects": [
+    {
+      "scope": "supported",
+      "seed": 2026,
+      "pde_effect_no_mass": -0.022974859211981256,
+      "pde_effect_with_mass": -0.02195172069563089,
+      "mass_effect_no_pde": 0.001229833290959978,
+      "mass_effect_with_pde": 0.002252971807310343,
+      "interaction": 0.001023138516350365
+    },
+    {
+      "scope": "supported",
+      "seed": 2027,
+      "pde_effect_no_mass": -0.02565603420801313,
+      "pde_effect_with_mass": -0.023955978898334358,
+      "mass_effect_no_pde": 0.0013097774869252551,
+      "mass_effect_with_pde": 0.0030098327966040263,
+      "interaction": 0.0017000553096787746
+    },
+    {
+      "scope": "supported",
+      "seed": 2028,
+      "pde_effect_no_mass": -0.024664213426928854,
+      "pde_effect_with_mass": -0.02307274995550675,
+      "mass_effect_no_pde": 0.0018091713767603504,
+      "mass_effect_with_pde": 0.0034006348481824544,
+      "interaction": 0.001591463471422104
+    },
+    {
+      "scope": "holdout",
+      "seed": 2026,
+      "pde_effect_no_mass": -0.023155718260369933,
+      "pde_effect_with_mass": -0.02211195086185956,
+      "mass_effect_no_pde": 0.0012078332339737,
+      "mass_effect_with_pde": 0.0022516006324840715,
+      "interaction": 0.0010437673985103715
+    },
+    {
+      "scope": "holdout",
+      "seed": 2027,
+      "pde_effect_no_mass": -0.025801651636860632,
+      "pde_effect_with_mass": -0.02407485183114482,
+      "mass_effect_no_pde": 0.0013165327700599416,
+      "mass_effect_with_pde": 0.0030433325757757528,
+      "interaction": 0.0017267998057158146
+    },
+    {
+      "scope": "holdout",
+      "seed": 2028,
+      "pde_effect_no_mass": -0.024830863463898296,
+      "pde_effect_with_mass": -0.02323160712459362,
+      "mass_effect_no_pde": 0.0017848863731319206,
+      "mass_effect_with_pde": 0.0033841427124365955,
+      "interaction": 0.001599256339304675
+    }
+  ],
+  "interpretation": "Effects are signed changes in mean refined-reference L2; negative is improvement. Three seeds only. All four cells retain IC, boundary and physical integral-mass penalties. This isolates the pointwise PDE term and numerical mass labels, not physics versus no physics. Center samples versus cell-average references as in original protocol; baseline Gauss-average sensitivity is separately audited."
+}

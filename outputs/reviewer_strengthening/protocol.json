@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-23",
+  "design": "2x2 factorial: PDE penalty weight 0 or 4; numerical mass-snapshot weight 0 or 20. IC, boundary, physical integral-mass loss, point labels, architecture, seeds, schedules and budgets fixed. This isolates PDE penalty and extra mass labels, not all physics.",
+  "seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "adam_iterations": 6000,
+  "lbfgs_max_iterations": 300,
+  "reuse": "Existing hybrid Adam checkpoints for PDE=4; existing final full hybrid for PDE=4,mass=20. No new checkpoint selection. PDE=0 is trained from the same seeded initialization; its Adam state is shared by both mass-label conditions.",
+  "primary_evaluation": "All twelve supported cases per seed and eight hydraulic interpolation cases; report failures and all paired changes. Baseline higher-order-reference audit is additional.",
+  "reference_plan": "Independent separable centered-flux Crank-Nicolson reference: spatial and temporal refinement, analytical eigenmode test, flux-inclusive mass check. Frozen neural checkpoints are not retrained on this reference. Report numerical bias if present.",
+  "use_case_plan": "Autograd sensitivity of final in-domain mass fraction to discharge along fixed Manning hydraulic relationship. Compare surrogate finite differences and converged numerical finite differences; disclose inaccurate derivatives. No speed claim.",
+  "publication": "Curated code, synthetic results and checkpoints only; exclude personal files, local environments and manuscript drafts."
+}

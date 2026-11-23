@@ -1,62 +1,43 @@
+"""Descriptive chronological residual intervals. No conformal guarantee."""
+
 import numpy as np
-import pandas as pd
 
 
-def _split_time_indices(n_times, calibration_fraction=0.5):
-    cut = int(np.floor(n_times * calibration_fraction))
-    cut = min(max(cut, 1), n_times - 1)
-    return np.arange(0, cut), np.arange(cut, n_times)
-
-
-def conformal_uq_from_reference(
-    pinn_frames,
-    reference_frames,
-    levels=(0.5, 0.8, 0.9, 0.95),
-    calibration_fraction=0.5,
-):
-    pinn = np.asarray(pinn_frames, dtype=float)
-    ref = np.asarray(reference_frames, dtype=float)
-    if pinn.shape != ref.shape:
-        raise ValueError(f"Shape mismatch: PINN {pinn.shape}, reference {ref.shape}.")
-
-    calib_idx, test_idx = _split_time_indices(pinn.shape[0], calibration_fraction)
-    abs_err = np.abs(pinn - ref)
-    calib_abs_err = abs_err[calib_idx]
-    test_abs_err = abs_err[test_idx]
-
-    reliability_rows = []
-    for level in levels:
-        q = np.quantile(calib_abs_err.reshape(-1), level)
-        coverage = np.mean(test_abs_err.reshape(-1) <= q)
-        reliability_rows.append(
-            {
-                "nominal_coverage": float(level),
-                "empirical_coverage": float(coverage),
-                "quantile_half_width": float(q),
-            }
+def residual_interval_audit(prediction, reference, level=0.9, calibration_fraction=0.5):
+    p = np.asarray(prediction)
+    r = np.asarray(reference)
+    if (
+        p.shape != r.shape
+        or p.ndim != 3
+        or len(p) < 4
+        or not np.isfinite(p).all()
+        or not np.isfinite(r).all()
+    ):
+        raise ValueError(
+            "Need matching finite (time,x,y) arrays and at least four times"
         )
-
-    reliability_df = pd.DataFrame(reliability_rows)
-
-    q90_global = float(np.quantile(calib_abs_err.reshape(-1), 0.90))
-    q90_map = np.quantile(calib_abs_err, 0.90, axis=0)
-    final_mean = pinn[-1]
-    final_lower_global = final_mean - q90_global
-    final_upper_global = final_mean + q90_global
-    final_lower_local = final_mean - q90_map
-    final_upper_local = final_mean + q90_map
-
-    local_coverage_90 = np.mean(test_abs_err <= q90_map[None, :, :])
-
+    if not 0 < level < 1 or not 0 < calibration_fraction < 1:
+        raise ValueError("Fractions must lie strictly between zero and one")
+    cut = int(len(p) * calibration_fraction)
+    if cut < 2 or len(p) - cut < 2:
+        raise ValueError("Need at least two calibration and evaluation times")
+    errors = np.abs(p - r)
+    q = np.quantile(errors[:cut], level, axis=0)
+    coverage = float(np.mean(errors[cut:] <= q))
     return {
-        "reliability_df": reliability_df,
-        "q90_global": q90_global,
-        "q90_map": q90_map,
-        "local_coverage_90": float(local_coverage_90),
-        "final_lower_global": final_lower_global,
-        "final_upper_global": final_upper_global,
-        "final_lower_local": final_lower_local,
-        "final_upper_local": final_upper_local,
-        "calibration_samples": int(calib_abs_err.size),
-        "test_samples": int(test_abs_err.size),
+        "nominal_level": level,
+        "empirical_coverage": coverage,
+        "coverage_gap": coverage - level,
+        "nominal_coverage_met_on_evaluation": bool(coverage >= level),
+        "guaranteed_coverage": False,
+        "half_width": q,
+        "calibration_time_indices": list(range(cut)),
+        "test_time_indices": list(range(cut, len(p))),
+        "interpretation": "Descriptive residual intervals against numerical reference; dependent chronological samples do not establish exchangeability or distribution-free coverage.",
     }
+
+
+def conformal_uq_from_reference(*args, **kwargs):
+    raise RuntimeError(
+        "Use residual_interval_audit. The old routine incorrectly implied conformal guarantees for dependent time slices."
+    )

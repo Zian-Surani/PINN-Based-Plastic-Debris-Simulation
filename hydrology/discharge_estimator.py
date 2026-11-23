@@ -1,17 +1,10 @@
 # hydrology/discharge_estimator.py
 
-DISCHARGE_BASE = {
-    "mountain": 300,
-    "plain": 1200,
-    "urban": 600,
-    "coastal": 2000
-}
+from config import TERRAIN, SEASON_DISCHARGE
 
-RAIN_SCALE = {
-    "dry": 0.7,
-    "normal": 1.0,
-    "wet": 1.3
-}
+DISCHARGE_BASE = {name: values[1] for name, values in TERRAIN.items()}
+RAIN_SCALE = SEASON_DISCHARGE
+
 
 def estimate_discharge(river_type, season):
     return DISCHARGE_BASE[river_type] * RAIN_SCALE[season]

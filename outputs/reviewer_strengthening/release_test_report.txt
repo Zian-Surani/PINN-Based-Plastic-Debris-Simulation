@@ -1,0 +1,30 @@
+test_analytical_eigenmode_convergence_and_balance (test_reviewer_methods.ReviewerMethods.test_analytical_eigenmode_convergence_and_balance) ... ok
+test_invalid_ablation_weights_fail_before_io (test_reviewer_methods.ReviewerMethods.test_invalid_ablation_weights_fail_before_io) ... ok
+test_reference_output_and_nonnegative (test_reviewer_methods.ReviewerMethods.test_reference_output_and_nonnegative) ... ok
+test_reference_rejects_coarse_centered_advection (test_reviewer_methods.ReviewerMethods.test_reference_rejects_coarse_centered_advection) ... ok
+test_retention_derivative_matches_finite_difference (test_reviewer_methods.ReviewerMethods.test_retention_derivative_matches_finite_difference) ... ok
+test_retention_rejects_unaudited_domain (test_reviewer_methods.ReviewerMethods.test_retention_rejects_unaudited_domain) ... ok
+test_advection_diffusion_analytic_refinement (test_science.ScienceTests.test_advection_diffusion_analytic_refinement) ... ok
+test_checkpoint_guard (test_science.ScienceTests.test_checkpoint_guard) ... ok
+test_combined_bound (test_science.ScienceTests.test_combined_bound) ... ok
+test_conservative_open_flux (test_science.ScienceTests.test_conservative_open_flux) ... ok
+test_diffusion_exact_solution_refines (test_science.ScienceTests.test_diffusion_exact_solution_refines) ... ok
+test_diffusion_inlet_export_accounted (test_science.ScienceTests.test_diffusion_inlet_export_accounted) ... ok
+test_interval_undercoverage_is_explicit (test_science.ScienceTests.test_interval_undercoverage_is_explicit) ... ok
+test_invalid_experiment (test_science.ScienceTests.test_invalid_experiment) ... ok
+test_invalid_solver_inputs (test_science.ScienceTests.test_invalid_solver_inputs) ... ok
+test_mass_diagnostic_detects_unbalanced_loss (test_science.ScienceTests.test_mass_diagnostic_detects_unbalanced_loss) ... ok
+test_neural_positivity_and_hard_boundaries (test_science.ScienceTests.test_neural_positivity_and_hard_boundaries) ... ok
+test_observation_units_and_registration (test_science.ScienceTests.test_observation_units_and_registration) ... ok
+test_research_interpolation_does_not_unlock_production (test_science.ScienceTests.test_research_interpolation_does_not_unlock_production) ... ok
+test_residual_chain_rule (test_science.ScienceTests.test_residual_chain_rule) ... ok
+test_residual_intervals_reject_bad_split (test_science.ScienceTests.test_residual_intervals_reject_bad_split) ... ok
+test_scenario_grid_and_units (test_science.ScienceTests.test_scenario_grid_and_units) ... ok
+test_seeded_initialization (test_science.ScienceTests.test_seeded_initialization) ... ok
+test_single_baseline_definition (test_science.ScienceTests.test_single_baseline_definition) ... ok
+test_time_integral_not_mean (test_science.ScienceTests.test_time_integral_not_mean) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.569s
+
+OK

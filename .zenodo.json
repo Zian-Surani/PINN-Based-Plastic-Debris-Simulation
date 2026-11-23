@@ -1,0 +1,21 @@
+{
+  "title": "Discretization-aware verification and discharge sensitivity of a hybrid tracer surrogate",
+  "upload_type": "software",
+  "description": "Reproducible synthetic tracer verification with a controlled PDE/mass-label factorial, independent reference-convergence audit and differentiable discharge-sensitivity demonstration. Includes documented numerical limitations and no field-validation or speed-superiority claim. DOI pending.",
+  "creators": [
+    {
+      "name": "Soni, Vaishnavi"
+    },
+    {
+      "name": "Surani, Zian Rajeshkumar"
+    }
+  ],
+  "license": "MIT",
+  "version": "0.3.0",
+  "keywords": [
+    "advection-diffusion",
+    "physics-informed neural network",
+    "finite volume",
+    "verification"
+  ]
+}

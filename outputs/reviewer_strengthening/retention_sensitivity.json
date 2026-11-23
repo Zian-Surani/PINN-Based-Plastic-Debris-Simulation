@@ -1,0 +1,50 @@
+{
+  "scope": "Frozen seed-2026 hybrid; final retained-mass fraction at 300s, plain terrain, discharge along Manning relationship; no retraining or runtime claim. Derivatives are with respect to Q/Qbase; divide by 1200 for per-(m3/s) derivatives. Neural diagnostic uses float64 evaluation of frozen float32-trained weights.",
+  "rows": [
+    {
+      "discharge_multiplier": 0.85,
+      "discharge_m3_s": 1020.0,
+      "neural_retained_fraction": 0.593872160049055,
+      "reference_retained_fraction": 0.5983920358724918,
+      "autograd_dretention_dmultiplier": -1.7663446010407908,
+      "neural_finite_difference_derivative": -1.7663445668131272,
+      "reference_finite_difference_derivatives": {
+        "0.005": -1.8385632044737865,
+        "0.0025": -1.8386314091179745
+      },
+      "derivative_relative_error": 0.03931555162100761,
+      "retention_absolute_error": 0.004519875823436825,
+      "reference_step_relative_change": 3.7095332892586614e-05
+    },
+    {
+      "discharge_multiplier": 1.0,
+      "discharge_m3_s": 1200.0,
+      "neural_retained_fraction": 0.34158449731616125,
+      "reference_retained_fraction": 0.3357376317790805,
+      "autograd_dretention_dmultiplier": -1.5403998454386603,
+      "neural_finite_difference_derivative": -1.5403998243898598,
+      "reference_finite_difference_derivatives": {
+        "0.005": -1.6029913044442734,
+        "0.0025": -1.603034295723449
+      },
+      "derivative_relative_error": 0.03907243310507074,
+      "retention_absolute_error": 0.005846865537080748,
+      "reference_step_relative_change": 2.6818689587739802e-05
+    },
+    {
+      "discharge_multiplier": 1.15,
+      "discharge_m3_s": 1380.0,
+      "neural_retained_fraction": 0.14612397363277138,
+      "reference_retained_fraction": 0.13326528502608628,
+      "autograd_dretention_dmultiplier": -1.0253008103555665,
+      "neural_finite_difference_derivative": -1.0253007998765884,
+      "reference_finite_difference_derivatives": {
+        "0.005": -1.04836823715356,
+        "0.0025": -1.0483948533069831
+      },
+      "derivative_relative_error": 0.022028001070942275,
+      "retention_absolute_error": 0.012858688606685098,
+      "reference_step_relative_change": 2.5387527742124292e-05
+    }
+  ]
+}

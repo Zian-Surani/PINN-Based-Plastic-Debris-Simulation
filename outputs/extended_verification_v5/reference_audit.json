@@ -1,0 +1,25 @@
+{
+  "refinement": [
+    {
+      "nx": 400,
+      "final_relative_l2_vs_1600": 0.05709613218062113,
+      "neural_final_relative_l2": 0.052839912083889405
+    },
+    {
+      "nx": 800,
+      "final_relative_l2_vs_1600": 0.025141899380455624,
+      "neural_final_relative_l2": 0.02142482164502198
+    },
+    {
+      "nx": 1600,
+      "final_relative_l2_vs_1600": 0.0,
+      "neural_final_relative_l2": 0.011317099098699903
+    }
+  ],
+  "longer_horizon_reference": {
+    "horizon_s": 600,
+    "relative_mass_balance": 4.955668997001288e-16,
+    "minimum_density": 0.0
+  },
+  "neural_horizon": "300 seconds only; 600-second reference does not establish neural long-horizon performance"
+}

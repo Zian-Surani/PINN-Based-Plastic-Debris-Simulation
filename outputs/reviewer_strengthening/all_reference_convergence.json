@@ -1,0 +1,202 @@
+[
+  {
+    "case": 0,
+    "terrain": "plain",
+    "season": "dry",
+    "spacetime_6400_vs_12800": 1.3314768962662496e-05,
+    "final_6400_vs_12800": 1.418933695074241e-05,
+    "centered_mass_budget": 1.804193650471718e-12,
+    "centered_minimum": -8.801695966534874e-34,
+    "upwind_reference_spacetime_error": 0.030863860065824242
+  },
+  {
+    "case": 1,
+    "terrain": "plain",
+    "season": "normal",
+    "spacetime_6400_vs_12800": 1.2161949850461108e-05,
+    "final_6400_vs_12800": 2.2795360855393338e-05,
+    "centered_mass_budget": 2.770815675006557e-12,
+    "centered_minimum": -6.516319780164359e-28,
+    "upwind_reference_spacetime_error": 0.033272920552775066
+  },
+  {
+    "case": 2,
+    "terrain": "plain",
+    "season": "wet",
+    "spacetime_6400_vs_12800": 1.1578169576196355e-05,
+    "final_6400_vs_12800": 0.0001066781497794786,
+    "centered_mass_budget": 2.7577850386517748e-12,
+    "centered_minimum": -3.5319267074397125e-25,
+    "upwind_reference_spacetime_error": 0.0351116501298622
+  },
+  {
+    "case": 3,
+    "terrain": "mountain",
+    "season": "dry",
+    "spacetime_6400_vs_12800": 2.3538540329949577e-05,
+    "final_6400_vs_12800": 0.3341736840828841,
+    "centered_mass_budget": 2.3180403105825718e-12,
+    "centered_minimum": -2.2729171802326476e-25,
+    "upwind_reference_spacetime_error": 0.03894557392775245
+  },
+  {
+    "case": 4,
+    "terrain": "mountain",
+    "season": "normal",
+    "spacetime_6400_vs_12800": 2.127945832674857e-05,
+    "final_6400_vs_12800": 1.0138714393050992,
+    "centered_mass_budget": 3.2022396352829472e-12,
+    "centered_minimum": -1.4322299384082893e-23,
+    "upwind_reference_spacetime_error": 0.040048535728669926
+  },
+  {
+    "case": 5,
+    "terrain": "mountain",
+    "season": "wet",
+    "spacetime_6400_vs_12800": 1.968046039141623e-05,
+    "final_6400_vs_12800": 1.0,
+    "centered_mass_budget": 1.7087403142824729e-12,
+    "centered_minimum": -6.368840103449847e-22,
+    "upwind_reference_spacetime_error": 0.04091373558776561
+  },
+  {
+    "case": 6,
+    "terrain": "urban",
+    "season": "dry",
+    "spacetime_6400_vs_12800": 1.8406351306980024e-05,
+    "final_6400_vs_12800": 6.634958852800457e-05,
+    "centered_mass_budget": 1.5292943220714415e-12,
+    "centered_minimum": -1.9750140858768504e-28,
+    "upwind_reference_spacetime_error": 0.034601799748575635
+  },
+  {
+    "case": 7,
+    "terrain": "urban",
+    "season": "normal",
+    "spacetime_6400_vs_12800": 1.702465781343933e-05,
+    "final_6400_vs_12800": 0.020388159336374216,
+    "centered_mass_budget": 2.8832245380188916e-12,
+    "centered_minimum": -1.0646591242316751e-24,
+    "upwind_reference_spacetime_error": 0.03675712062572807
+  },
+  {
+    "case": 8,
+    "terrain": "urban",
+    "season": "wet",
+    "spacetime_6400_vs_12800": 1.5611660980923146e-05,
+    "final_6400_vs_12800": 0.14617094259887495,
+    "centered_mass_budget": 4.987279820269323e-12,
+    "centered_minimum": -4.5493456262928083e-23,
+    "upwind_reference_spacetime_error": 0.03751735906374827
+  },
+  {
+    "case": 9,
+    "terrain": "coastal",
+    "season": "dry",
+    "spacetime_6400_vs_12800": 1.0075757315343505e-05,
+    "final_6400_vs_12800": 1.4366508284171804e-05,
+    "centered_mass_budget": 3.193290885015206e-13,
+    "centered_minimum": 0.0,
+    "upwind_reference_spacetime_error": 0.01851170434682763
+  },
+  {
+    "case": 10,
+    "terrain": "coastal",
+    "season": "normal",
+    "spacetime_6400_vs_12800": 9.672055861873949e-06,
+    "final_6400_vs_12800": 1.3495983874728425e-05,
+    "centered_mass_budget": 2.3740877464700067e-12,
+    "centered_minimum": 0.0,
+    "upwind_reference_spacetime_error": 0.021364942404652934
+  },
+  {
+    "case": 11,
+    "terrain": "coastal",
+    "season": "wet",
+    "spacetime_6400_vs_12800": 9.290259868254986e-06,
+    "final_6400_vs_12800": 1.276245732008404e-05,
+    "centered_mass_budget": 5.816844669650855e-12,
+    "centered_minimum": 0.0,
+    "upwind_reference_spacetime_error": 0.023690192645693216
+  },
+  {
+    "case": 12,
+    "terrain": "plain",
+    "season": "holdout_Q0.85",
+    "spacetime_6400_vs_12800": 1.2610087770053381e-05,
+    "final_6400_vs_12800": 1.6321144826220588e-05,
+    "centered_mass_budget": 4.043265164831937e-12,
+    "centered_minimum": -1.4833953578966633e-30,
+    "upwind_reference_spacetime_error": 0.03208083914271077
+  },
+  {
+    "case": 13,
+    "terrain": "plain",
+    "season": "holdout_Q1.15",
+    "spacetime_6400_vs_12800": 1.1871188586627975e-05,
+    "final_6400_vs_12800": 4.438512655902567e-05,
+    "centered_mass_budget": 1.3784215324696905e-12,
+    "centered_minimum": -2.0436991007182127e-26,
+    "upwind_reference_spacetime_error": 0.03427690135702672
+  },
+  {
+    "case": 14,
+    "terrain": "mountain",
+    "season": "holdout_Q0.85",
+    "spacetime_6400_vs_12800": 2.229409334543549e-05,
+    "final_6400_vs_12800": 0.8118264163802608,
+    "centered_mass_budget": 1.942035803718687e-12,
+    "centered_minimum": -2.9585605141463225e-24,
+    "upwind_reference_spacetime_error": 0.039252689814238156
+  },
+  {
+    "case": 15,
+    "terrain": "mountain",
+    "season": "holdout_Q1.15",
+    "spacetime_6400_vs_12800": 2.041559571825184e-05,
+    "final_6400_vs_12800": 1.0,
+    "centered_mass_budget": 3.321870296756968e-12,
+    "centered_minimum": -7.704187998396818e-23,
+    "upwind_reference_spacetime_error": 0.04031798021519869
+  },
+  {
+    "case": 16,
+    "terrain": "urban",
+    "season": "holdout_Q0.85",
+    "spacetime_6400_vs_12800": 1.7904006643712327e-05,
+    "final_6400_vs_12800": 0.0007893614795341746,
+    "centered_mass_budget": 1.7079553361888114e-12,
+    "centered_minimum": -2.767806060778122e-26,
+    "upwind_reference_spacetime_error": 0.03587194954899822
+  },
+  {
+    "case": 17,
+    "terrain": "urban",
+    "season": "holdout_Q1.15",
+    "spacetime_6400_vs_12800": 1.6262777648520798e-05,
+    "final_6400_vs_12800": 0.07448156657045696,
+    "centered_mass_budget": 2.167638507837018e-12,
+    "centered_minimum": -1.0527003206311331e-23,
+    "upwind_reference_spacetime_error": 0.03690510252751593
+  },
+  {
+    "case": 18,
+    "terrain": "coastal",
+    "season": "holdout_Q0.85",
+    "spacetime_6400_vs_12800": 9.873890636601811e-06,
+    "final_6400_vs_12800": 1.391357233028773e-05,
+    "centered_mass_budget": 3.2749286067560074e-13,
+    "centered_minimum": 0.0,
+    "upwind_reference_spacetime_error": 0.019434821795743847
+  },
+  {
+    "case": 19,
+    "terrain": "coastal",
+    "season": "holdout_Q1.15",
+    "spacetime_6400_vs_12800": 9.476687977972143e-06,
+    "final_6400_vs_12800": 1.3113236173398034e-05,
+    "centered_mass_budget": 6.51217826501626e-13,
+    "centered_minimum": 0.0,
+    "upwind_reference_spacetime_error": 0.022139276250883005
+  }
+]

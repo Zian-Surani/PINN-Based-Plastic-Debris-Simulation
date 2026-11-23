@@ -1,20 +1,14 @@
 # hydrology/depth_estimator.py
 
-MANNING_N = {
-    "mountain": 0.035,
-    "plain": 0.03,
-    "urban": 0.025,
-    "coastal": 0.04
-}
+from config import TERRAIN
 
-SLOPE = {
-    "mountain": 0.01,
-    "plain": 0.001,
-    "urban": 0.002,
-    "coastal": 0.0005
-}
+MANNING_N = {k: v[2] for k, v in TERRAIN.items()}
+SLOPE = {k: v[3] for k, v in TERRAIN.items()}
+
 
 def estimate_depth(width, velocity, river_type):
+    if width <= 0 or velocity <= 0:
+        raise ValueError("Width and velocity must be positive SI values")
     n = MANNING_N[river_type]
     s = SLOPE[river_type]
-    return (velocity * n / (s ** 0.5)) ** (3/2)
+    return (velocity * n / (s**0.5)) ** (3 / 2)

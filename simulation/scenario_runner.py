@@ -1,24 +1,10 @@
-# simulation/scenario_runner.py
+"""Scenario evaluation uses the same canonical configuration as training."""
 
-import torch
-import numpy as np
-import config
+from config import all_experiments
+from core.pinn_inference import load_pinn, DEFAULT_CHECKPOINT
+from simulation.validation_suite import evaluate
 
-def run_simulation(pinn, width, length):
-    x = torch.linspace(0, length, config.NX)
-    y = torch.linspace(0, width, config.NY)
-    X, Y = torch.meshgrid(x, y, indexing="ij")
 
-    frames = []
-    times = np.linspace(0, config.TIME_MAX, config.N_TIME_STEPS)
-
-    for t in times:
-        t_tensor = torch.full_like(X, t)
-        C = pinn.evaluate(
-            X.reshape(-1,1),
-            Y.reshape(-1,1),
-            t_tensor.reshape(-1,1)
-        )
-        frames.append(C.reshape(config.NX, config.NY).numpy())
-
-    return frames, X.numpy(), Y.numpy()
+def run_scenarios(checkpoint=DEFAULT_CHECKPOINT):
+    model = load_pinn(checkpoint)
+    return [evaluate(model, e)["metrics"] for e in all_experiments()]

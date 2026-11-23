@@ -1,0 +1,12 @@
+{
+  "scientific_unittests": {
+    "passed": 16,
+    "command": ".venv-science/Scripts/python.exe -B -m unittest discover -s tests -q"
+  },
+  "dependency_check": "pip check: No broken requirements found",
+  "app_check": "Streamlit AppTest: initial render and baseline Run verification action passed without exception or st.error",
+  "static_check": "ruff F checks passed",
+  "result_count": 72,
+  "checkpoint_and_source_hashes": "verified after completion",
+  "neural_mass_quadrature_diagnostic": "../v5_hybrid_mass_diagnostic.json"
+}

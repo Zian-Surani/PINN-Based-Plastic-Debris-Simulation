@@ -1,0 +1,63 @@
+{
+  "spatial": [
+    {
+      "nx": 20,
+      "ny": 10,
+      "safety": 0.8,
+      "relative_l2": 0.00454698051148414,
+      "relative_mass_balance": 2.0892891059437136e-16
+    },
+    {
+      "nx": 40,
+      "ny": 20,
+      "safety": 0.8,
+      "relative_l2": 0.0023268246433308785,
+      "relative_mass_balance": 0.0
+    },
+    {
+      "nx": 80,
+      "ny": 40,
+      "safety": 0.8,
+      "relative_l2": 0.0011780847498961567,
+      "relative_mass_balance": 0.0
+    },
+    {
+      "nx": 160,
+      "ny": 80,
+      "safety": 0.8,
+      "relative_l2": 0.0005928995207573414,
+      "relative_mass_balance": 2.0894723618660344e-16
+    }
+  ],
+  "temporal": [
+    {
+      "nx": 80,
+      "ny": 40,
+      "safety": 0.8,
+      "relative_l2": 0.0011780847498961567,
+      "relative_mass_balance": 0.0
+    },
+    {
+      "nx": 80,
+      "ny": 40,
+      "safety": 0.4,
+      "relative_l2": 0.0011744559018968285,
+      "relative_mass_balance": 2.089463576605395e-16
+    },
+    {
+      "nx": 80,
+      "ny": 40,
+      "safety": 0.2,
+      "relative_l2": 0.0011744721098336818,
+      "relative_mass_balance": 2.089463576605395e-16
+    },
+    {
+      "nx": 80,
+      "ny": 40,
+      "safety": 0.1,
+      "relative_l2": 0.001174937651304655,
+      "relative_mass_balance": 2.089463576605395e-16
+    }
+  ],
+  "note": "Analytical eigenmode is a solver benchmark with its own prescribed initial field; the trained PINN is not evaluated on this different IC. Fixed-grid temporal rows approach a spatial-error floor."
+}

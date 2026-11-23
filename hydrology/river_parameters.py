@@ -1,8 +1,13 @@
 # hydrology/river_parameters.py
-from core.config_loader import RIVER_WIDTH_CLASSES, CLIMATE_SCALING
+from config import TERRAIN
+
 
 def get_width_range(river_type):
-    return tuple(RIVER_WIDTH_CLASSES[river_type])
+    width = TERRAIN[river_type][0]
+    return (width, width)
+
 
 def get_climate_multiplier(season):
-    return CLIMATE_SCALING[season]
+    raise RuntimeError(
+        "Post-inference concentration scaling is retired. Use config.make_experiment: season scales discharge only."
+    )
