@@ -7,4 +7,6 @@ The project and manuscript authors are:
 
 Both are retained in CITATION.cff, Zenodo preparation metadata and the manuscript.
 
-The two original commits name `Vaishnavi-Soni-12` as author but use an email associated with Zian's GitHub account. GitHub therefore currently associates those commits with Zian. No original commit was removed by the v0.3.0 update. A name-specific .mailmap records the correct identity for that historical author name without changing published commit IDs or creating fictitious contributions. GitHub's displayed contributor count may use cached or email-based attribution and is not the authoritative project author list. Restoring that UI count is not claimed until it is observed.
+The two original commits name `Vaishnavi-Soni-12` as author but use an email associated with Zian's GitHub account. At the start of the audit, GitHub associated those commits with Zian. No original commit was removed by the v0.3.0 update. A name-specific .mailmap records the correct identity for that historical author name without changing published commit IDs or creating fictitious contributions.
+
+**Verified 24 November 2026:** after publishing the mapping, GitHub's contributors API reports both `Vaishnavi-Soni-12` and `Zian-Surani`. Historical commit IDs remain unchanged. The project author list and the observed GitHub attribution now agree.
