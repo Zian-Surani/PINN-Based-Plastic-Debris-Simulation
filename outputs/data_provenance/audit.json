@@ -1,0 +1,156 @@
+{
+  "raw_files": [
+    {
+      "path": "data/chirps/chirps-v2.0.2022.monthly.nc",
+      "bytes": 171075512,
+      "sha256": "8e59c7664e48899e697a01841d779563d560e0e440f5908bc788ebb4c2d1cb91"
+    },
+    {
+      "path": "data/grwl/GRWL_summaryStats.dbf",
+      "bytes": 6143596,
+      "sha256": "f6269cc06fc4562b8a5947a8233350e6666e1d3de07dc1b1501e2f705403a6b6"
+    },
+    {
+      "path": "data/grwl/GRWL_summaryStats.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+    },
+    {
+      "path": "data/grwl/GRWL_summaryStats.shp",
+      "bytes": 52433708,
+      "sha256": "2757f3aaf753b01e859e610083b173a295f17a72034cd207efa41ef1fc830eba"
+    },
+    {
+      "path": "data/grwl/GRWL_summaryStats.shx",
+      "bytes": 336716,
+      "sha256": "e3b9b7eb8486ff2dc0c94fea6f2cfde608be30cdf38cb273af104428050d3d0e"
+    },
+    {
+      "path": "data/hydrosheds/flow_accumulation_15s/hyd_glo_acc_15s.tif",
+      "bytes": 817040187,
+      "sha256": "50bbe1e31a5ffeff53e2ce6e7fbf53c48c819b0ce81caf947f25ffc76fb6ebeb"
+    },
+    {
+      "path": "data/hydrosheds/flow_direction_15s/hyd_glo_dir_15s.tif",
+      "bytes": 307603485,
+      "sha256": "a021f82d52b04ad09fd1fa3f7d2f9ea5c4f65f3e61ebca75058e6bcce95829a2"
+    }
+  ],
+  "grwl": {
+    "records": 42077,
+    "median_fields_m": {
+      "width_min_": 30.0,
+      "width_med_": 108.0,
+      "width_mean": 124.0,
+      "width_max_": 509.0
+    },
+    "derived_ranges_m": {
+      "mountain": [
+        30.0,
+        75.6
+      ],
+      "plain": [
+        75.6,
+        162.0
+      ],
+      "urban": [
+        54.0,
+        108.0
+      ],
+      "coastal": [
+        162.0,
+        509.0
+      ]
+    },
+    "midpoints_m": {
+      "mountain": 52.8,
+      "plain": 118.8,
+      "urban": 81.0,
+      "coastal": 335.5
+    },
+    "matches_config": true,
+    "interpretation": "Dataset-informed global width abstraction; terrain classes and multipliers are modelling assumptions, not observed terrain classifications or a geolocated reach."
+  },
+  "chirps": {
+    "dimensions": {
+      "longitude": 7200,
+      "latitude": 2000,
+      "time": 12
+    },
+    "variables": [
+      "latitude",
+      "longitude",
+      "precip",
+      "time"
+    ],
+    "attributes": {
+      "Conventions": "CF-1.6",
+      "title": "CHIRPS Version 2.0",
+      "history": "created by Climate Hazards Center",
+      "version": "Version 2.0",
+      "data_created": "2023-12-18",
+      "creator_name": "Pete Peterson",
+      "creator_email": "pete@geog.ucsb.edu",
+      "institution": "Climate Hazards Center. University of California at Santa Barbara",
+      "documentation": "http://pubs.usgs.gov/ds/832/",
+      "reference": "Funk, C.C., Peterson, P.J., Landsfeld, M.F., Pedreros, D.H., Verdin, J.P., Rowland, J.D., Romero, B.E., Husak, G.J., Michaelsen, J.C., and Verdin, A.P., 2014, A quasi-global precipitation time series for drought monitoring: U.S. Geological Survey Data Series 832, 4 p., http://dx.doi.org/110.3133/ds832. ",
+      "comments": " time variable denotes the first day of the given month. ",
+      "acknowledgements": "The Climate Hazards Center InfraRed Precipitation with Stations development process was carreied out through U.S. Geological Survey (USGS) cooperative agreement #G09AC000001 \"Monitoring and Forecasting Climate, Water and Land Use for Food Production in the Developing World\" with funding from: U.S. Agency for International Development Office of Food for Peace, award #AID-FFP-P-10-00002 for \"Famine Early Warning Systems Network Support,\" the National Aeronautics and Space Administration Applied Sciences Program, Decisions award #NN10AN26I for \"A Land Data Assimilation System for Famine Early Warning,\" SERVIR award #NNH12AU22I for \"A Long Time-Series Indicator of Agricultural Drought for the Greater Horn of Africa,\" The National Oceanic and Atmospheric Administration award NA110AR431051 for \"A Global Standardized Precipitation Index supporting the US Drought Portal and the Famine Early Warning System Network,\" and the USGS Land Change Science Program.",
+      "ftp_url": "ftp://chg-ftpout.geog.ucsb.edu/pub/chg/products/CHIRPS-latest/",
+      "website": "http://chg.geog.ucsb.edu/data/chirps/index.html",
+      "faq": "http://chg-wiki.geog.ucsb.edu/wiki/CHIRPS_FAQ"
+    },
+    "precip_units": "mm/month"
+  },
+  "stored_chirps_factors": {
+    "dry": 0.08,
+    "normal": 1.0,
+    "wet": 1.36
+  },
+  "active_discharge_factors": {
+    "dry": 0.7,
+    "normal": 1.0,
+    "wet": 1.3
+  },
+  "hydrosheds": [
+    {
+      "path": "data/hydrosheds/flow_accumulation_15s/hyd_glo_acc_15s.tif",
+      "crs": "EPSG:4326",
+      "shape": [
+        33600,
+        86400
+      ],
+      "resolution": [
+        0.00416666666666667,
+        0.00416666666666667
+      ],
+      "nodata": 4294967295.0,
+      "dtype": "uint32"
+    },
+    {
+      "path": "data/hydrosheds/flow_direction_15s/hyd_glo_dir_15s.tif",
+      "crs": "EPSG:4326",
+      "shape": [
+        33600,
+        86400
+      ],
+      "resolution": [
+        0.00416666666666667,
+        0.00416666666666667
+      ],
+      "nodata": 255.0,
+      "dtype": "uint8"
+    }
+  ],
+  "era5": {
+    "found": false,
+    "search_scope": "project data, data_validation, outputs and active source references"
+  },
+  "conclusions": [
+    "GRWL global summary medians reproduce the configured width midpoints.",
+    "CHIRPS precipitation factors are not the active discharge multipliers; no rainfall-runoff calibration is implemented.",
+    "HydroSHEDS direction and accumulation rasters are present but no extraction feeds the reported slope or discharge. Those values are prescribed assumptions.",
+    "No ERA5 input or implemented ingestion is evidenced.",
+    "None of these resources supplies observed tracer-density labels or field validation."
+  ]
+}

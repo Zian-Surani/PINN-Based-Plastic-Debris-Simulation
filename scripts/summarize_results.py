@@ -71,7 +71,7 @@ def summarize(folder):
         "- Full results, including every failure, are in metrics.csv and metrics.json. Raw timing repetitions are in timings.json; source/checkpoint hashes and hardware are in manifest.json.",
         "- The finer reference was used during development diagnostics. This is not a blinded test or an unseen-parameter generalization study.",
         "- Numerical residual intervals have no guaranteed coverage. Read residual_intervals.json before making uncertainty claims.",
-        "- The original manuscript is not synchronized with this new 300-second experiment. Its old values, training claims and figures must not be reused as current results.",
+        "- Report generation does not edit manuscript tables. A manuscript must identify the exact experiment and reference used; legacy five-second results are not interchangeable with this 300-second study.",
         f"- Failed cases: {', '.join(failure) if failure else 'none under the declared numerical checks'}.",
         "",
     ]

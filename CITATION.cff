@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Cite the released software version and its archived DOI when a public deposit exists. No DOI has yet been assigned."
 title: "Discretization-aware verification and discharge sensitivity of a hybrid tracer surrogate"
 type: software
-version: 0.3.0
-date-released: 2026-11-23
+version: 0.3.1
+date-released: 2026-11-24
 license: MIT
 authors:
   - family-names: Soni

@@ -12,7 +12,9 @@ N_TIME_STEPS = 61  # output times, including t=0
 TIME_MAX = 300.0  # seconds; former 5 s results are superseded
 COLORMAP = "viridis"
 SEEDS = (2026, 2027, 2028)
-# Synthetic scenario assumptions, not measured site hydraulics.
+# Idealized scenarios, not measured site hydraulics. Widths are midpoints of
+# GRWL-informed global ranges; see docs/DATA_PROVENANCE.md. Other hydraulics
+# and discharge multipliers are prescribed assumptions, not raster extraction.
 TERRAIN = {
     "plain": (118.8, 1200.0, 0.030, 0.001),
     "mountain": (52.8, 300.0, 0.035, 0.010),

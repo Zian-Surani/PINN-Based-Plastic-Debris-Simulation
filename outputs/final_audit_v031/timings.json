@@ -1,0 +1,1442 @@
+{
+  "hybrid_2026_plain_dry": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10471880000113742,
+        "finite_volume": 0.013947299994470086
+      },
+      {
+        "finite_volume": 0.013561300002038479,
+        "pinn": 0.10326120000536321
+      },
+      {
+        "pinn": 0.10232180000457447,
+        "finite_volume": 0.013137499998265412
+      },
+      {
+        "finite_volume": 0.013002900006540585,
+        "pinn": 0.10088120000000345
+      },
+      {
+        "pinn": 0.09974160000274424,
+        "finite_volume": 0.012759599994751625
+      },
+      {
+        "finite_volume": 0.012839199996960815,
+        "pinn": 0.0997711000018171
+      },
+      {
+        "pinn": 0.09937190000346163,
+        "finite_volume": 0.012768900000082795
+      },
+      {
+        "finite_volume": 0.012645299997529946,
+        "pinn": 0.09998840000480413
+      },
+      {
+        "pinn": 0.09913520000554854,
+        "finite_volume": 0.013225900001998525
+      },
+      {
+        "finite_volume": 0.012781999997969251,
+        "pinn": 0.09993769999709912
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10091289000265533,
+        "sample_sd_s": 0.0018856668820793514,
+        "median_s": 0.09996305000095163
+      },
+      "finite_volume": {
+        "mean_s": 0.013066989999060752,
+        "sample_sd_s": 0.0004147148884922024,
+        "median_s": 0.0129210500017507
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_plain_normal": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09822789999452652,
+        "finite_volume": 0.015475899999728426
+      },
+      {
+        "finite_volume": 0.015286900001228787,
+        "pinn": 0.09844599999632919
+      },
+      {
+        "pinn": 0.09992329999658978,
+        "finite_volume": 0.015754699998069555
+      },
+      {
+        "finite_volume": 0.015589200003887527,
+        "pinn": 0.09992680000141263
+      },
+      {
+        "pinn": 0.10111909999977797,
+        "finite_volume": 0.015655100003641564
+      },
+      {
+        "finite_volume": 0.015584900000249036,
+        "pinn": 0.10085919999983162
+      },
+      {
+        "pinn": 0.10133849999692757,
+        "finite_volume": 0.015619600002537481
+      },
+      {
+        "finite_volume": 0.01544139999896288,
+        "pinn": 0.1035667000032845
+      },
+      {
+        "pinn": 0.11721169999509584,
+        "finite_volume": 0.016587600002822
+      },
+      {
+        "finite_volume": 0.0161523999995552,
+        "pinn": 0.10171490000357153
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10223340999873472,
+        "sample_sd_s": 0.0054911275172316995,
+        "median_s": 0.1009891499998048
+      },
+      "finite_volume": {
+        "mean_s": 0.015714770001068246,
+        "sample_sd_s": 0.0003822537381649148,
+        "median_s": 0.015604400003212504
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_plain_wet": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10906299999624025,
+        "finite_volume": 0.01650800000061281
+      },
+      {
+        "finite_volume": 0.016336900000169408,
+        "pinn": 0.10575450000033015
+      },
+      {
+        "pinn": 0.10759360000520246,
+        "finite_volume": 0.016165500004717615
+      },
+      {
+        "finite_volume": 0.01644530000339728,
+        "pinn": 0.10462140000163345
+      },
+      {
+        "pinn": 0.10470200000418117,
+        "finite_volume": 0.0161521999980323
+      },
+      {
+        "finite_volume": 0.01566820000152802,
+        "pinn": 0.10193670000444399
+      },
+      {
+        "pinn": 0.10358789999736473,
+        "finite_volume": 0.01569020000169985
+      },
+      {
+        "finite_volume": 0.015607200002705213,
+        "pinn": 0.10298509999847738
+      },
+      {
+        "pinn": 0.1139573999971617,
+        "finite_volume": 0.016040399998018984
+      },
+      {
+        "finite_volume": 0.015833800003747456,
+        "pinn": 0.10369540000101551
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10578970000060509,
+        "sample_sd_s": 0.003577313275141024,
+        "median_s": 0.10466170000290731
+      },
+      "finite_volume": {
+        "mean_s": 0.016044770001462892,
+        "sample_sd_s": 0.0003316596278678404,
+        "median_s": 0.016096299998025643
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_mountain_dry": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.1016349000055925,
+        "finite_volume": 0.01895700000022771
+      },
+      {
+        "finite_volume": 0.01872699999512406,
+        "pinn": 0.10216200000286335
+      },
+      {
+        "pinn": 0.10114489999978105,
+        "finite_volume": 0.018319499999051914
+      },
+      {
+        "finite_volume": 0.018141799999284558,
+        "pinn": 0.0998122000019066
+      },
+      {
+        "pinn": 0.10220179999305401,
+        "finite_volume": 0.018224799998279195
+      },
+      {
+        "finite_volume": 0.018355799998971634,
+        "pinn": 0.10356170000159182
+      },
+      {
+        "pinn": 0.10598999999638181,
+        "finite_volume": 0.01874649999808753
+      },
+      {
+        "finite_volume": 0.018577999995613936,
+        "pinn": 0.11652239999966696
+      },
+      {
+        "pinn": 0.10694929999590386,
+        "finite_volume": 0.018851000000722706
+      },
+      {
+        "finite_volume": 0.018744700006209314,
+        "pinn": 0.10265719999733847
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10426363999940805,
+        "sample_sd_s": 0.004815067329854086,
+        "median_s": 0.10242949999519624
+      },
+      "finite_volume": {
+        "mean_s": 0.018564609999157256,
+        "sample_sd_s": 0.0002840138870041903,
+        "median_s": 0.018652499995369
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_mountain_normal": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10766770000191173,
+        "finite_volume": 0.022061399999074638
+      },
+      {
+        "finite_volume": 0.021401099998911377,
+        "pinn": 0.10132039999734843
+      },
+      {
+        "pinn": 0.10676950000197394,
+        "finite_volume": 0.021698500000638887
+      },
+      {
+        "finite_volume": 0.021791399994981475,
+        "pinn": 0.10352889999921899
+      },
+      {
+        "pinn": 0.10426949999964563,
+        "finite_volume": 0.02184800000395626
+      },
+      {
+        "finite_volume": 0.021493899999768473,
+        "pinn": 0.10155569999915315
+      },
+      {
+        "pinn": 0.10295459999906598,
+        "finite_volume": 0.02180979999684496
+      },
+      {
+        "finite_volume": 0.02175310000166064,
+        "pinn": 0.0997224999955506
+      },
+      {
+        "pinn": 0.10023350000119535,
+        "finite_volume": 0.02169799999683164
+      },
+      {
+        "finite_volume": 0.02164230000198586,
+        "pinn": 0.10107170000264887
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10290939999977126,
+        "sample_sd_s": 0.0026838783018932866,
+        "median_s": 0.10225514999910956
+      },
+      "finite_volume": {
+        "mean_s": 0.02171974999946542,
+        "sample_sd_s": 0.0001846910046559114,
+        "median_s": 0.021725800001149764
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_mountain_wet": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09824270000535762,
+        "finite_volume": 0.024184699999750592
+      },
+      {
+        "finite_volume": 0.023854499995650258,
+        "pinn": 0.0985075999997207
+      },
+      {
+        "pinn": 0.0997642000002088,
+        "finite_volume": 0.02406920000066748
+      },
+      {
+        "finite_volume": 0.023939399994560517,
+        "pinn": 0.10026179999840679
+      },
+      {
+        "pinn": 0.09950620000017807,
+        "finite_volume": 0.02413959999830695
+      },
+      {
+        "finite_volume": 0.02404890000616433,
+        "pinn": 0.09824920000392012
+      },
+      {
+        "pinn": 0.09930059999896912,
+        "finite_volume": 0.02408360000117682
+      },
+      {
+        "finite_volume": 0.02383209999970859,
+        "pinn": 0.09944820000237087
+      },
+      {
+        "pinn": 0.09936310000193771,
+        "finite_volume": 0.024055699999735225
+      },
+      {
+        "finite_volume": 0.02388020000216784,
+        "pinn": 0.09882340000331169
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.09914670000143815,
+        "sample_sd_s": 0.0006709118885911222,
+        "median_s": 0.09933185000045341
+      },
+      "finite_volume": {
+        "mean_s": 0.02400878999978886,
+        "sample_sd_s": 0.00012359700231814676,
+        "median_s": 0.024052300002949778
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_urban_dry": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10052569999970729,
+        "finite_volume": 0.015565600006084424
+      },
+      {
+        "finite_volume": 0.015608700006850995,
+        "pinn": 0.10046590000274591
+      },
+      {
+        "pinn": 0.10054619999573333,
+        "finite_volume": 0.015523300004133489
+      },
+      {
+        "finite_volume": 0.015669899999920744,
+        "pinn": 0.10035570000036387
+      },
+      {
+        "pinn": 0.10030579999875044,
+        "finite_volume": 0.01561319999746047
+      },
+      {
+        "finite_volume": 0.015843699999095406,
+        "pinn": 0.10198620000301162
+      },
+      {
+        "pinn": 0.09979770000063581,
+        "finite_volume": 0.015696499998739455
+      },
+      {
+        "finite_volume": 0.01568579999729991,
+        "pinn": 0.10009260000515496
+      },
+      {
+        "pinn": 0.09990340000513243,
+        "finite_volume": 0.015607699999236502
+      },
+      {
+        "finite_volume": 0.015667499996197876,
+        "pinn": 0.10044769999512937
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.1004426900006365,
+        "sample_sd_s": 0.0006015079982618852,
+        "median_s": 0.10040169999774662
+      },
+      "finite_volume": {
+        "mean_s": 0.015648190000501928,
+        "sample_sd_s": 8.797635151440591e-05,
+        "median_s": 0.015640349996829173
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_urban_normal": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09971940000104951,
+        "finite_volume": 0.015439399998285808
+      },
+      {
+        "finite_volume": 0.015340599995397497,
+        "pinn": 0.09953680000035092
+      },
+      {
+        "pinn": 0.10187759999826085,
+        "finite_volume": 0.01584510000247974
+      },
+      {
+        "finite_volume": 0.01661650000460213,
+        "pinn": 0.10018870000203606
+      },
+      {
+        "pinn": 0.10169790000509238,
+        "finite_volume": 0.01583109999774024
+      },
+      {
+        "finite_volume": 0.015760099995532073,
+        "pinn": 0.09911590000410797
+      },
+      {
+        "pinn": 0.10025560000212863,
+        "finite_volume": 0.015945399994961917
+      },
+      {
+        "finite_volume": 0.015992000000551343,
+        "pinn": 0.09915739999996731
+      },
+      {
+        "pinn": 0.09891340000467608,
+        "finite_volume": 0.015838600003917236
+      },
+      {
+        "finite_volume": 0.01585509999858914,
+        "pinn": 0.10036399999808054
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10008267000157503,
+        "sample_sd_s": 0.0010295055798959537,
+        "median_s": 0.09995405000154278
+      },
+      "finite_volume": {
+        "mean_s": 0.015846389999205714,
+        "sample_sd_s": 0.00034211060947699775,
+        "median_s": 0.015841850003198488
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_urban_wet": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10040579999622423,
+        "finite_volume": 0.01917400000093039
+      },
+      {
+        "finite_volume": 0.019748699996853247,
+        "pinn": 0.10197570000309497
+      },
+      {
+        "pinn": 0.09862509999948088,
+        "finite_volume": 0.01824740000301972
+      },
+      {
+        "finite_volume": 0.01810719999775756,
+        "pinn": 0.09924499999760883
+      },
+      {
+        "pinn": 0.10089960000186693,
+        "finite_volume": 0.019495400003506802
+      },
+      {
+        "finite_volume": 0.018728299997746944,
+        "pinn": 0.09968780000053812
+      },
+      {
+        "pinn": 0.10044840000045951,
+        "finite_volume": 0.019086599997535814
+      },
+      {
+        "finite_volume": 0.01882109999860404,
+        "pinn": 0.09946290000516456
+      },
+      {
+        "pinn": 0.10031719999824418,
+        "finite_volume": 0.018539600001531653
+      },
+      {
+        "finite_volume": 0.01869989999977406,
+        "pinn": 0.10271529999590712
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10037827999985893,
+        "sample_sd_s": 0.001245759003170225,
+        "median_s": 0.1003614999972342
+      },
+      "finite_volume": {
+        "mean_s": 0.018864819999726022,
+        "sample_sd_s": 0.0005198680338772642,
+        "median_s": 0.018774699998175493
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_coastal_dry": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10098699999798555,
+        "finite_volume": 0.006907000002684072
+      },
+      {
+        "finite_volume": 0.006776700000045821,
+        "pinn": 0.10132660000090254
+      },
+      {
+        "pinn": 0.10106069999892497,
+        "finite_volume": 0.00685199999861652
+      },
+      {
+        "finite_volume": 0.006895200000144541,
+        "pinn": 0.1007580000004964
+      },
+      {
+        "pinn": 0.10076520000438904,
+        "finite_volume": 0.006937300000572577
+      },
+      {
+        "finite_volume": 0.006766599995899014,
+        "pinn": 0.10021869999764021
+      },
+      {
+        "pinn": 0.09931640000286279,
+        "finite_volume": 0.00685689999954775
+      },
+      {
+        "finite_volume": 0.0067706999980146065,
+        "pinn": 0.10072270000091521
+      },
+      {
+        "pinn": 0.09998830000404269,
+        "finite_volume": 0.007019899996521417
+      },
+      {
+        "finite_volume": 0.00674569999682717,
+        "pinn": 0.10074469999381108
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10058883000019705,
+        "sample_sd_s": 0.0005910590597817519,
+        "median_s": 0.10075134999715374
+      },
+      "finite_volume": {
+        "mean_s": 0.006852799998887349,
+        "sample_sd_s": 8.897439141036062e-05,
+        "median_s": 0.006854449999082135
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_coastal_normal": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10002090000489261,
+        "finite_volume": 0.009859200006758329
+      },
+      {
+        "finite_volume": 0.009571800001140218,
+        "pinn": 0.09835439999733353
+      },
+      {
+        "pinn": 0.10010750000219559,
+        "finite_volume": 0.009702700001071207
+      },
+      {
+        "finite_volume": 0.009574899995641317,
+        "pinn": 0.09798120000050403
+      },
+      {
+        "pinn": 0.0990114000014728,
+        "finite_volume": 0.009613900001568254
+      },
+      {
+        "finite_volume": 0.009436400003323797,
+        "pinn": 0.09868719999940367
+      },
+      {
+        "pinn": 0.09894630000053439,
+        "finite_volume": 0.009587000000465196
+      },
+      {
+        "finite_volume": 0.009482499997830018,
+        "pinn": 0.09863480000058189
+      },
+      {
+        "pinn": 0.09885290000238456,
+        "finite_volume": 0.009744099996169098
+      },
+      {
+        "finite_volume": 0.009461199995712377,
+        "pinn": 0.09905440000147792
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.0989651000010781,
+        "sample_sd_s": 0.0006641780281257351,
+        "median_s": 0.09889960000145948
+      },
+      "finite_volume": {
+        "mean_s": 0.00960336999996798,
+        "sample_sd_s": 0.00013333636847390426,
+        "median_s": 0.009580949998053256
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "hybrid_2026_coastal_wet": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09917300000233809,
+        "finite_volume": 0.009817199999815784
+      },
+      {
+        "finite_volume": 0.00956449999648612,
+        "pinn": 0.09882220000145026
+      },
+      {
+        "pinn": 0.10048300000198651,
+        "finite_volume": 0.009868599998299032
+      },
+      {
+        "finite_volume": 0.0095904000045266,
+        "pinn": 0.09808860000339337
+      },
+      {
+        "pinn": 0.10031390000222018,
+        "finite_volume": 0.009902599995257333
+      },
+      {
+        "finite_volume": 0.009536600002320483,
+        "pinn": 0.09854070000437787
+      },
+      {
+        "pinn": 0.09955259999696864,
+        "finite_volume": 0.009752199999638833
+      },
+      {
+        "finite_volume": 0.00952040000265697,
+        "pinn": 0.09943740000016987
+      },
+      {
+        "pinn": 0.09930400000303052,
+        "finite_volume": 0.00973119999980554
+      },
+      {
+        "finite_volume": 0.00951070000155596,
+        "pinn": 0.09908390000055078
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.09927993000164861,
+        "sample_sd_s": 0.0007334320518642271,
+        "median_s": 0.0992385000026843
+      },
+      "finite_volume": {
+        "mean_s": 0.009679440000036265,
+        "sample_sd_s": 0.00015196575604202697,
+        "median_s": 0.00966080000216607
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_plain_dry": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.11580439999670489,
+        "finite_volume": 0.014469200003077276
+      },
+      {
+        "finite_volume": 0.01485609999508597,
+        "pinn": 0.11380399999325164
+      },
+      {
+        "pinn": 0.11526479999884032,
+        "finite_volume": 0.014914999999746215
+      },
+      {
+        "finite_volume": 0.014762500002689194,
+        "pinn": 0.11221189999923809
+      },
+      {
+        "pinn": 0.11589780000213068,
+        "finite_volume": 0.013940899996669032
+      },
+      {
+        "finite_volume": 0.014618199995311443,
+        "pinn": 0.1118994999997085
+      },
+      {
+        "pinn": 0.11088780000136467,
+        "finite_volume": 0.01432070000009844
+      },
+      {
+        "finite_volume": 0.014262100004998501,
+        "pinn": 0.11148079999838956
+      },
+      {
+        "pinn": 0.10111570000299253,
+        "finite_volume": 0.013086300001305062
+      },
+      {
+        "finite_volume": 0.012838899994676467,
+        "pinn": 0.09997850000218023
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.1108345199994801,
+        "sample_sd_s": 0.005720744035178849,
+        "median_s": 0.11205569999947329
+      },
+      "finite_volume": {
+        "mean_s": 0.01420698999936576,
+        "sample_sd_s": 0.0007213758734370587,
+        "median_s": 0.014394950001587858
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_plain_normal": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09976550000283169,
+        "finite_volume": 0.015797200001543388
+      },
+      {
+        "finite_volume": 0.015381899997009896,
+        "pinn": 0.09950789999857079
+      },
+      {
+        "pinn": 0.10068640000099549,
+        "finite_volume": 0.015693699999246746
+      },
+      {
+        "finite_volume": 0.015194199993857183,
+        "pinn": 0.10121039999648929
+      },
+      {
+        "pinn": 0.10048379999352619,
+        "finite_volume": 0.01560359999712091
+      },
+      {
+        "finite_volume": 0.015325199994549621,
+        "pinn": 0.0999216999989585
+      },
+      {
+        "pinn": 0.10123449999809964,
+        "finite_volume": 0.015588499998557381
+      },
+      {
+        "finite_volume": 0.015316199998778757,
+        "pinn": 0.09945409999636468
+      },
+      {
+        "pinn": 0.10110559999884572,
+        "finite_volume": 0.016037100001994986
+      },
+      {
+        "finite_volume": 0.015545499998552259,
+        "pinn": 0.09969500000443077
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10030648999891127,
+        "sample_sd_s": 0.000720460602403543,
+        "median_s": 0.10020274999624235
+      },
+      "finite_volume": {
+        "mean_s": 0.015548309998121113,
+        "sample_sd_s": 0.00025460635835167857,
+        "median_s": 0.01556699999855482
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_plain_wet": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09843440000258852,
+        "finite_volume": 0.015392900000733789
+      },
+      {
+        "finite_volume": 0.015154200002143625,
+        "pinn": 0.09869780000008177
+      },
+      {
+        "pinn": 0.0995753999959561,
+        "finite_volume": 0.015451700004632585
+      },
+      {
+        "finite_volume": 0.015121599994017743,
+        "pinn": 0.09803670000110287
+      },
+      {
+        "pinn": 0.10024590000102762,
+        "finite_volume": 0.015727600002719555
+      },
+      {
+        "finite_volume": 0.015333600000303704,
+        "pinn": 0.09824849999858998
+      },
+      {
+        "pinn": 0.09919310000259429,
+        "finite_volume": 0.01528390000021318
+      },
+      {
+        "finite_volume": 0.015198400004010182,
+        "pinn": 0.09908469999936642
+      },
+      {
+        "pinn": 0.09932400000252528,
+        "finite_volume": 0.01565149999805726
+      },
+      {
+        "finite_volume": 0.015340699996158946,
+        "pinn": 0.09770099999877857
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.09885415000026114,
+        "sample_sd_s": 0.0007754135660973172,
+        "median_s": 0.0988912499997241
+      },
+      "finite_volume": {
+        "mean_s": 0.015365610000299058,
+        "sample_sd_s": 0.00020040015843441895,
+        "median_s": 0.015337149998231325
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_mountain_dry": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09916429999429965,
+        "finite_volume": 0.01882320000004256
+      },
+      {
+        "finite_volume": 0.018428600000333972,
+        "pinn": 0.10086159999627853
+      },
+      {
+        "pinn": 0.10041730000375537,
+        "finite_volume": 0.018869299994548783
+      },
+      {
+        "finite_volume": 0.018416599996271543,
+        "pinn": 0.10117429999809247
+      },
+      {
+        "pinn": 0.10017320000042673,
+        "finite_volume": 0.018832100002327934
+      },
+      {
+        "finite_volume": 0.018641099995875265,
+        "pinn": 0.0999796999967657
+      },
+      {
+        "pinn": 0.10263319999648957,
+        "finite_volume": 0.019008499999472406
+      },
+      {
+        "finite_volume": 0.019120899996778462,
+        "pinn": 0.10106019999511773
+      },
+      {
+        "pinn": 0.10078629999770783,
+        "finite_volume": 0.01898990000336198
+      },
+      {
+        "finite_volume": 0.018811199995980132,
+        "pinn": 0.10052269999869168
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10067727999776252,
+        "sample_sd_s": 0.000905933921710008,
+        "median_s": 0.10065449999819975
+      },
+      "finite_volume": {
+        "mean_s": 0.018794139998499305,
+        "sample_sd_s": 0.0002354303355420547,
+        "median_s": 0.018827650001185248
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_mountain_normal": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10072370000125375,
+        "finite_volume": 0.021684800005459692
+      },
+      {
+        "finite_volume": 0.02146770000399556,
+        "pinn": 0.09967619999952149
+      },
+      {
+        "pinn": 0.10055500000453321,
+        "finite_volume": 0.021500000002561137
+      },
+      {
+        "finite_volume": 0.02140489999874262,
+        "pinn": 0.09977129999606404
+      },
+      {
+        "pinn": 0.10033780000230763,
+        "finite_volume": 0.021701300000131596
+      },
+      {
+        "finite_volume": 0.02124329999787733,
+        "pinn": 0.09939670000312617
+      },
+      {
+        "pinn": 0.10014400000363821,
+        "finite_volume": 0.022080700000515208
+      },
+      {
+        "finite_volume": 0.021657999997842126,
+        "pinn": 0.10672509999858448
+      },
+      {
+        "pinn": 0.10035570000036387,
+        "finite_volume": 0.02107360000081826
+      },
+      {
+        "finite_volume": 0.02069380000466481,
+        "pinn": 0.09855239999887999
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10062379000082729,
+        "sample_sd_s": 0.002237201405301151,
+        "median_s": 0.10024090000297292
+      },
+      "finite_volume": {
+        "mean_s": 0.021450810001260832,
+        "sample_sd_s": 0.0003830303505640882,
+        "median_s": 0.02148385000327835
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_mountain_wet": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10019399999873713,
+        "finite_volume": 0.02441040000121575
+      },
+      {
+        "finite_volume": 0.02459390000149142,
+        "pinn": 0.0999080999972648
+      },
+      {
+        "pinn": 0.10025929999392247,
+        "finite_volume": 0.02457180000055814
+      },
+      {
+        "finite_volume": 0.024579099997936282,
+        "pinn": 0.09943529999873135
+      },
+      {
+        "pinn": 0.1023568000018713,
+        "finite_volume": 0.02452189999894472
+      },
+      {
+        "finite_volume": 0.024041099997702986,
+        "pinn": 0.09919689999514958
+      },
+      {
+        "pinn": 0.09946029999991879,
+        "finite_volume": 0.02439050000248244
+      },
+      {
+        "finite_volume": 0.02413399999932153,
+        "pinn": 0.09962230000382988
+      },
+      {
+        "pinn": 0.10089970000262838,
+        "finite_volume": 0.024212999996962026
+      },
+      {
+        "finite_volume": 0.023971399998117704,
+        "pinn": 0.1000973000045633
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.1001429999996617,
+        "sample_sd_s": 0.0009237634869672307,
+        "median_s": 0.10000270000091405
+      },
+      "finite_volume": {
+        "mean_s": 0.0243427099994733,
+        "sample_sd_s": 0.00023562163947682578,
+        "median_s": 0.024400450001849094
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_urban_dry": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09975510000367649,
+        "finite_volume": 0.015967400002409704
+      },
+      {
+        "finite_volume": 0.015539699998043943,
+        "pinn": 0.10021439999400172
+      },
+      {
+        "pinn": 0.10029539999959525,
+        "finite_volume": 0.016208700006245635
+      },
+      {
+        "finite_volume": 0.0161692999972729,
+        "pinn": 0.10226330000296002
+      },
+      {
+        "pinn": 0.11828949999471661,
+        "finite_volume": 0.018909500002337154
+      },
+      {
+        "finite_volume": 0.021384500003478024,
+        "pinn": 0.10870490000525024
+      },
+      {
+        "pinn": 0.10463720000552712,
+        "finite_volume": 0.016591999999945983
+      },
+      {
+        "finite_volume": 0.016100900000310503,
+        "pinn": 0.10340939999878174
+      },
+      {
+        "pinn": 0.1050424000059138,
+        "finite_volume": 0.016533900001377333
+      },
+      {
+        "finite_volume": 0.016053899998951238,
+        "pinn": 0.10348520000115968
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10460968000115826,
+        "sample_sd_s": 0.00551568850912078,
+        "median_s": 0.10344729999997071
+      },
+      "finite_volume": {
+        "mean_s": 0.016945980001037243,
+        "sample_sd_s": 0.0018087136371869395,
+        "median_s": 0.01618900000175927
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_urban_normal": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.1019148999985191,
+        "finite_volume": 0.01614069999777712
+      },
+      {
+        "finite_volume": 0.01582800000323914,
+        "pinn": 0.1001752000011038
+      },
+      {
+        "pinn": 0.10172439999587368,
+        "finite_volume": 0.016035000000556465
+      },
+      {
+        "finite_volume": 0.01582879999477882,
+        "pinn": 0.10019849999662256
+      },
+      {
+        "pinn": 0.10078570000041509,
+        "finite_volume": 0.01638739999907557
+      },
+      {
+        "finite_volume": 0.015882899999269284,
+        "pinn": 0.10121069999877363
+      },
+      {
+        "pinn": 0.10176009999850066,
+        "finite_volume": 0.016209699999308214
+      },
+      {
+        "finite_volume": 0.015799900000274647,
+        "pinn": 0.10063150000496535
+      },
+      {
+        "pinn": 0.10090320000017527,
+        "finite_volume": 0.016194899995753076
+      },
+      {
+        "finite_volume": 0.015657600000849925,
+        "pinn": 0.09987820000242209
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10091823999973712,
+        "sample_sd_s": 0.0007218276484324598,
+        "median_s": 0.10084445000029518
+      },
+      "finite_volume": {
+        "mean_s": 0.015996489999088224,
+        "sample_sd_s": 0.00023161768447169134,
+        "median_s": 0.015958949999912875
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_urban_wet": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10176989999308717,
+        "finite_volume": 0.018994400001247413
+      },
+      {
+        "finite_volume": 0.018618699999933597,
+        "pinn": 0.0997127000009641
+      },
+      {
+        "pinn": 0.10063169999921229,
+        "finite_volume": 0.019262200003140606
+      },
+      {
+        "finite_volume": 0.01880879999953322,
+        "pinn": 0.10088589999941178
+      },
+      {
+        "pinn": 0.10142630000336794,
+        "finite_volume": 0.019022300002689008
+      },
+      {
+        "finite_volume": 0.018655599997146055,
+        "pinn": 0.10259589999623131
+      },
+      {
+        "pinn": 0.10059679999540094,
+        "finite_volume": 0.01885049999691546
+      },
+      {
+        "finite_volume": 0.019023499997274484,
+        "pinn": 0.10164020000229357
+      },
+      {
+        "pinn": 0.1020040000003064,
+        "finite_volume": 0.019374999996216502
+      },
+      {
+        "finite_volume": 0.01902210000116611,
+        "pinn": 0.10095320000255015
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10122165999928256,
+        "sample_sd_s": 0.0008312293741890823,
+        "median_s": 0.10118975000295904
+      },
+      "finite_volume": {
+        "mean_s": 0.018963309999526244,
+        "sample_sd_s": 0.00024046028330134805,
+        "median_s": 0.01900825000120676
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_coastal_dry": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10033519999706186,
+        "finite_volume": 0.006924000001163222
+      },
+      {
+        "finite_volume": 0.00673129999631783,
+        "pinn": 0.0993497999952524
+      },
+      {
+        "pinn": 0.10033449999900768,
+        "finite_volume": 0.007000900004641153
+      },
+      {
+        "finite_volume": 0.006790199993702117,
+        "pinn": 0.09836099999665748
+      },
+      {
+        "pinn": 0.09972719999495894,
+        "finite_volume": 0.006911800002853852
+      },
+      {
+        "finite_volume": 0.006678400000964757,
+        "pinn": 0.0994702000025427
+      },
+      {
+        "pinn": 0.09948270000313642,
+        "finite_volume": 0.006923199995071627
+      },
+      {
+        "finite_volume": 0.006686400003673043,
+        "pinn": 0.09886930000357097
+      },
+      {
+        "pinn": 0.10025129999849014,
+        "finite_volume": 0.007280799996806309
+      },
+      {
+        "finite_volume": 0.007019699994998518,
+        "pinn": 0.0997267000057036
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.09959078999963822,
+        "sample_sd_s": 0.0006409919678293305,
+        "median_s": 0.09960470000442001
+      },
+      "finite_volume": {
+        "mean_s": 0.006894669999019243,
+        "sample_sd_s": 0.0001843107818409951,
+        "median_s": 0.0069174999989627395
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_coastal_normal": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.10023029999865685,
+        "finite_volume": 0.010144499996386003
+      },
+      {
+        "finite_volume": 0.009905899998557288,
+        "pinn": 0.10108719999698224
+      },
+      {
+        "pinn": 0.10172049999528099,
+        "finite_volume": 0.009921700002450962
+      },
+      {
+        "finite_volume": 0.009766600000148173,
+        "pinn": 0.10182899999927031
+      },
+      {
+        "pinn": 0.1007603999969433,
+        "finite_volume": 0.010204600002907682
+      },
+      {
+        "finite_volume": 0.009893900001770817,
+        "pinn": 0.09987270000419812
+      },
+      {
+        "pinn": 0.10095199999341276,
+        "finite_volume": 0.010075900005176663
+      },
+      {
+        "finite_volume": 0.010044200003903825,
+        "pinn": 0.10221070000261534
+      },
+      {
+        "pinn": 0.10308860000077402,
+        "finite_volume": 0.010179700002481695
+      },
+      {
+        "finite_volume": 0.009634900001401547,
+        "pinn": 0.09867400000075577
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.10104253999888897,
+        "sample_sd_s": 0.0012630274280983655,
+        "median_s": 0.1010195999951975
+      },
+      "finite_volume": {
+        "mean_s": 0.009977190001518466,
+        "sample_sd_s": 0.00018605897221648498,
+        "median_s": 0.009982950003177393
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  },
+  "data_only_2026_coastal_wet": {
+    "repeats": 10,
+    "warmup_pairs": 1,
+    "ordering": "alternating",
+    "raw_seconds": [
+      {
+        "pinn": 0.09912120000080904,
+        "finite_volume": 0.009898800002702046
+      },
+      {
+        "finite_volume": 0.009616099996492267,
+        "pinn": 0.09902860000147484
+      },
+      {
+        "pinn": 0.10060299999895506,
+        "finite_volume": 0.009837399993557483
+      },
+      {
+        "finite_volume": 0.009610300003259908,
+        "pinn": 0.09934049999719718
+      },
+      {
+        "pinn": 0.10091130000364501,
+        "finite_volume": 0.009887299995170906
+      },
+      {
+        "finite_volume": 0.009719699999550357,
+        "pinn": 0.09907699999894248
+      },
+      {
+        "pinn": 0.10034930000256281,
+        "finite_volume": 0.009848899993812665
+      },
+      {
+        "finite_volume": 0.009576900003594346,
+        "pinn": 0.09959089999756543
+      },
+      {
+        "pinn": 0.10021119999873918,
+        "finite_volume": 0.009906899998895824
+      },
+      {
+        "finite_volume": 0.009661500000220258,
+        "pinn": 0.09849430000031134
+      }
+    ],
+    "summary": {
+      "pinn": {
+        "mean_s": 0.09967273000002023,
+        "sample_sd_s": 0.0007976986377622438,
+        "median_s": 0.09946569999738131
+      },
+      "finite_volume": {
+        "mean_s": 0.009756379998725606,
+        "sample_sd_s": 0.00013282507783490114,
+        "median_s": 0.00977854999655392
+      }
+    },
+    "scope": "CPU, model already loaded; both evaluate same cell grid and output times; training excluded"
+  }
+}

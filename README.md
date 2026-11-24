@@ -1,6 +1,38 @@
 # Discretization-aware verification of a hybrid tracer surrogate
 
-Version 0.3.0 provides reproducible synthetic experiments for a positive, parameter-conditioned neural approximation to a two-dimensional advection-diffusion equation. Numerical labels and physics penalties train the model. This is a verification study, not a calibrated river-plastic forecast or a new conservation theorem.
+**Authors:** [Vaishnavi Soni](https://github.com/Vaishnavi-Soni-12) and [Zian Rajeshkumar Surani](https://github.com/Zian-Surani). See [attribution and Git identity notes](CONTRIBUTORS.md).
+
+## Actual project outputs
+
+These figures are generated from released model checkpoints and numerical records, not illustrative AI-generated results. Captions distinguish simulation outputs from measurements. [Figure provenance](outputs/paper_figures/figure_manifest.json) records the source of each plot; [dataset provenance](docs/DATA_PROVENANCE.md) explains the real-world data connection.
+
+### Predicted tracer field at 300 seconds
+![Full-hybrid tracer prediction, plain/normal configuration, seed 2026; axes in metres and density in kg/m²](outputs/paper_figures/Fig_14_neural_field.png)
+
+### Signed error against the original upwind reference
+![Prediction minus the 800 by 92 upwind reference at 300 seconds; this is numerical disagreement, not measured field error](outputs/paper_figures/Fig_09_baseline_signed_error.png)
+
+### Flux-inclusive mass balance
+![Recorded remaining mass and outward boundary export; the neural mass budget is approximate](outputs/paper_figures/Fig_18_mass_and_export.png)
+
+### Independently refined-reference comparison
+![Reference refinement and time-resolved numerical errors](outputs/reviewer_strengthening/figures/Fig_26_independent_reference.png)
+
+### Controlled loss comparison and discharge sensitivity
+![Matched-seed pointwise PDE and numerical mass-label factorial](outputs/reviewer_strengthening/figures/Fig_27_controlled_factorial.png)
+![Retained mass and discharge derivatives at three audited settings](outputs/reviewer_strengthening/figures/Fig_28_retention_sensitivity.png)
+
+## Real-world data lineage
+
+The raw GRWL audit reproduces all four configured widths from 42,077 summary records. Widths are midpoints of global, dataset-informed ranges; terrain assignment is a modelling choice. CHIRPS and HydroSHEDS files are available locally but do not provide the active discharge factors or measured tracer labels. No ERA5 ingestion is implemented. Consequently, this is an idealized verification study with GRWL-informed widths, not a four-dataset-coupled field forecast. Exact derivations, raw-file hashes, official source links and limitations are in [DATA_PROVENANCE.md](docs/DATA_PROVENANCE.md).
+
+## Final audit
+
+The 24 November 2026 audit reran all 72 supported evaluations: every declared check passed, and the checked numerical metrics and baseline arrays matched the archived results exactly. Both app actions passed. See [audit findings](outputs/final_audit_v031/AUDIT_REPORT.md) and [comparison records](outputs/final_audit_v031/reproduction_comparison.json). Fresh timings are preserved separately and do not replace the manuscript's original ten-repeat benchmark.
+
+Recreate the first 25 figures with `python docs/manuscript_page_audit/build_figure_package.py --output outputs/paper_figures`; recreate Figures 26–28 with `python -m scripts.plot_reviewer_results`. Schematic figures are identified separately from experimental outputs in the figure manifest.
+
+Version 0.3.1 provides reproducible synthetic experiments for a positive, parameter-conditioned neural approximation to a two-dimensional advection-diffusion equation. Numerical labels and physics penalties train the model. This is a verification study, not a calibrated river-plastic forecast or a new conservation theorem.
 
 ## Main findings
 
@@ -63,6 +95,6 @@ Released software, synthetic outputs and checkpoints have an MIT licence. Histor
 
 Repository: https://github.com/Zian-Surani/PINN-Based-Plastic-Debris-Simulation
 
-Release: https://github.com/Zian-Surani/PINN-Based-Plastic-Debris-Simulation/releases/tag/v0.3.0
+Release: https://github.com/Zian-Surani/PINN-Based-Plastic-Debris-Simulation/releases/tag/v0.3.1
 
 Use CITATION.cff for authors and version. **Zenodo DOI pending**; no archival DOI is claimed. The contribution is the controlled verification and sensitivity study. Novelty and journal acceptance require assessment against the literature; the architecture is not claimed to be unprecedented.

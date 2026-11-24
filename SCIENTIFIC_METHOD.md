@@ -79,3 +79,7 @@ The original verification_v5 source hashes describe the earlier executed report.
 ## Reviewer-strengthening extension (23 November 2026)
 
 See docs/REVIEWER_STRENGTHENING.md and outputs/reviewer_strengthening/RESULTS.md. The independently refined reference reveals discretization bias in the original upwind comparison. The new controlled factorial isolates the pointwise PDE penalty from numerical mass-snapshot supervision while retaining the other physics losses. Report both reference definitions; do not call the old benchmark discrepancy an exact PDE error. The frozen full-hybrid checkpoint remains the default; no winner is silently substituted after evaluation.
+
+## Raw-dataset provenance audit (24 November 2026)
+
+The configured widths are exactly reproduced from the local GRWL summary data: global medians and the historical range abstraction yield midpoints 52.8/118.8/81.0/335.5 m for mountain/plain/urban/coastal. This corrects the overly broad earlier implication that widths have no dataset lineage. These are still idealized configurations, not observed site geometry. Other hydraulic coefficients and season-to-discharge factors remain assumptions. CHIRPS precipitation factors differ from the active discharge factors; HydroSHEDS direction/accumulation rasters are not connected to active slope or discharge; no ERA5 input was found. See docs/DATA_PROVENANCE.md and outputs/data_provenance/audit.json. No numerical parameters or checkpoints changed in this audit.

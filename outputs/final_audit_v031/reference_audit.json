@@ -1,0 +1,1884 @@
+[
+  {
+    "reference": "[1] Meijer, L. J. J.; van Emmerik, T.; van der Ent, R.; Schmidt, C.; Lebreton, L. (2021). More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean. Science Advances 7(18), eaaz5803. https://doi.org/10.1126/sciadv.aaz5803.",
+    "doi": "10.1126/sciadv.aaz5803",
+    "publisher_url": "https://doi.org/10.1126/sciadv.aaz5803",
+    "publisher_access": "unavailable: HTTP Error 403: Forbidden",
+    "metadata": {
+      "title": [
+        "More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3712-6806",
+          "authenticated-orcid": true,
+          "given": "Lourens J. J.",
+          "family": "Meijer",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The Ocean Cleanup, Rotterdam, Netherlands."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4773-9107",
+          "authenticated-orcid": true,
+          "given": "Tim",
+          "family": "van Emmerik",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Ocean Cleanup, Rotterdam, Netherlands."
+            },
+            {
+              "name": "Hydrology and Quantitative Water Management Group, Wageningen University, Wageningen, Netherlands."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5450-4333",
+          "authenticated-orcid": true,
+          "given": "Ruud",
+          "family": "van der Ent",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Water Management, Faculty of Civil Engineering and Geosciences, Delft University of Technology, Delft, Netherlands."
+            },
+            {
+              "name": "Department of Physical Geography, Faculty of Geosciences, Utrecht University, Utrecht, Netherlands."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9787-8327",
+          "authenticated-orcid": true,
+          "given": "Christian",
+          "family": "Schmidt",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department Aquatic Ecosystem Analysis, Helmholtz-Centre for Environmental Research - UFZ, Magdeburg, Germany."
+            },
+            {
+              "name": "Department of Hydrogeology, Helmholtz-Centre for Environmental Research\u2013UFZ, Permoserstrasse 15, 04318 Leipzig, Germany."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Laurent",
+          "family": "Lebreton",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Ocean Cleanup, Rotterdam, Netherlands."
+            },
+            {
+              "name": "The Modelling House, Raglan, New Zealand."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Science Advances"
+      ],
+      "volume": "7",
+      "issue": "18",
+      "page": null,
+      "article-number": "eaaz5803",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            30
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://www.science.org/doi/10.1126/sciadv.aaz5803"
+        }
+      }
+    },
+    "metadata_retry": "succeeded"
+  },
+  {
+    "reference": "[2] Raissi, M.; Perdikaris, P.; Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics 378, 686-707. https://doi.org/10.1016/j.jcp.2018.10.045.",
+    "doi": "10.1016/j.jcp.2018.10.045",
+    "metadata": {
+      "title": [
+        "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8467-4568",
+          "authenticated-orcid": false,
+          "given": "M.",
+          "family": "Raissi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2816-3229",
+          "authenticated-orcid": false,
+          "given": "P.",
+          "family": "Perdikaris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "G.E.",
+          "family": "Karniadakis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Computational Physics"
+      ],
+      "volume": "378",
+      "issue": null,
+      "page": "686-707",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            2
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0021999118307125"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0021999118307125",
+    "publisher_http_status": 200,
+    "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0021999118307125",
+    "publisher_content_bytes": 2766,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[3] Lu, L.; Meng, X.; Mao, Z.; Karniadakis, G. E. (2021). DeepXDE: A Deep Learning Library for Solving Differential Equations. SIAM Review 63(1), 208-228. https://doi.org/10.1137/19M1274067.",
+    "doi": "10.1137/19M1274067",
+    "metadata": {
+      "title": [
+        "DeepXDE: A Deep Learning Library for Solving Differential Equations"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5476-5768",
+          "authenticated-orcid": true,
+          "given": "Lu",
+          "family": "Lu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Mathematics, Massachusetts Institute of Technology, Cambridge, MA 02139 USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xuhui",
+          "family": "Meng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Division of Applied Mathematics, Brown University, Providence, RI 02912 USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhiping",
+          "family": "Mao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Mathematical Sciences, Xiamen University, Xiamen, Fujian 361005, China."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9713-7120",
+          "authenticated-orcid": true,
+          "given": "George Em",
+          "family": "Karniadakis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Division of Applied Mathematics, Brown University, Providence, RI 02912 USA, and Pacific Northwest National Laboratory, Richland, WA 99354 USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "SIAM Review"
+      ],
+      "volume": "63",
+      "issue": "1",
+      "page": "208-228",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            1
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://epubs.siam.org/doi/10.1137/19M1274067"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://epubs.siam.org/doi/10.1137/19M1274067",
+    "publisher_access": "unavailable: HTTP Error 403: Forbidden"
+  },
+  {
+    "reference": "[4] Shin, Y., Darbon, J., and Karniadakis, G. E. (2020). On the Convergence of Physics Informed Neural Networks for Linear Second-Order Elliptic and Parabolic Type PDEs. Communications in Computational Physics 28(5), 2042\u20132074. https://doi.org/10.4208/cicp.OA-2020-0193.",
+    "doi": "10.4208/cicp.OA-2020-0193",
+    "metadata": {
+      "title": [
+        "On the Convergence of Physics Informed Neural Networks for Linear Second-Order Elliptic and Parabolic Type PDEs"
+      ],
+      "author": [
+        {
+          "given": "Yeonjong",
+          "family": "Shin",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05gq02987",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Division of Applied Mathematics, Brown University, Providence, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "J\u00e9r\u00f4me",
+          "family": "Darbon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05gq02987",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Division of Applied Mathematics, Brown University, Providence, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "George",
+          "family": "Em Karniadakis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/05gq02987",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Division of Applied Mathematics, Brown University, Providence, United States"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Communications in Computational Physics"
+      ],
+      "volume": "28",
+      "issue": "5",
+      "page": "2042-2074",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            11,
+            18
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://www.global-sci.com/cicp/article/view/6904"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://www.global-sci.com/cicp/article/view/6904",
+    "publisher_http_status": 200,
+    "resolved_url": "https://www.global-sci.com/cicp/article/view/6904",
+    "publisher_content_bytes": 148342,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[5] Wang, S., Teng, Y., and Perdikaris, P. (2021). Understanding and Mitigating Gradient Flow Pathologies in Physics-Informed Neural Networks. SIAM Journal on Scientific Computing 43(5), A3055\u2013A3081. https://doi.org/10.1137/20M1318043.",
+    "doi": "10.1137/20M1318043",
+    "metadata": {
+      "title": [
+        "Understanding and Mitigating Gradient Flow Pathologies in Physics-Informed Neural Networks"
+      ],
+      "author": [
+        {
+          "given": "Sifan",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yujun",
+          "family": "Teng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2816-3229",
+          "authenticated-orcid": true,
+          "given": "Paris",
+          "family": "Perdikaris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "SIAM Journal on Scientific Computing"
+      ],
+      "volume": "43",
+      "issue": "5",
+      "page": "A3055-A3081",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            1
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://epubs.siam.org/doi/10.1137/20M1318043"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://epubs.siam.org/doi/10.1137/20M1318043",
+    "publisher_access": "unavailable: HTTP Error 403: Forbidden"
+  },
+  {
+    "reference": "[6] Jagtap, A. D.; Kawaguchi, K.; Karniadakis, G. E. (2020). Adaptive activation functions accelerate convergence in deep and physics-informed neural networks. Journal of Computational Physics 404, 109136. https://doi.org/10.1016/j.jcp.2019.109136.",
+    "doi": "10.1016/j.jcp.2019.109136",
+    "metadata": {
+      "title": [
+        "Adaptive activation functions accelerate convergence in deep and physics-informed neural networks"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8831-1000",
+          "authenticated-orcid": false,
+          "given": "Ameya D.",
+          "family": "Jagtap",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kenji",
+          "family": "Kawaguchi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "George Em",
+          "family": "Karniadakis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Computational Physics"
+      ],
+      "volume": "404",
+      "issue": null,
+      "page": "109136",
+      "article-number": "109136",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            3
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0021999119308411"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0021999119308411",
+    "publisher_http_status": 200,
+    "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0021999119308411",
+    "publisher_content_bytes": 2712,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[7] Krishnapriyan, A., Gholami, A., Zhe, S., Kirby, R., and Mahoney, M. W. (2021). Characterizing Possible Failure Modes in Physics-Informed Neural Networks. Advances in Neural Information Processing Systems 34. https://proceedings.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html.",
+    "publisher_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+    "publisher_http_status": 200,
+    "resolved_url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/df438e5206f31600e6ae4af72f2725f1-Abstract.html",
+    "publisher_content_bytes": 10075,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[8] Zhu, Y.; Zabaras, N.; Koutsourelakis, P.; Perdikaris, P. (2019). Physics-constrained deep learning for high-dimensional surrogate modeling and uncertainty quantification without labeled data. Journal of Computational Physics 394, 56-81. https://doi.org/10.1016/j.jcp.2019.05.024.",
+    "doi": "10.1016/j.jcp.2019.05.024",
+    "metadata": {
+      "title": [
+        "Physics-constrained deep learning for high-dimensional surrogate modeling and uncertainty quantification without labeled data"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9435-4576",
+          "authenticated-orcid": false,
+          "given": "Yinhao",
+          "family": "Zhu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3144-8388",
+          "authenticated-orcid": false,
+          "given": "Nicholas",
+          "family": "Zabaras",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9345-759X",
+          "authenticated-orcid": false,
+          "given": "Phaedon-Stelios",
+          "family": "Koutsourelakis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2816-3229",
+          "authenticated-orcid": false,
+          "given": "Paris",
+          "family": "Perdikaris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Computational Physics"
+      ],
+      "volume": "394",
+      "issue": null,
+      "page": "56-81",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            10
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0021999119303559"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0021999119303559",
+    "publisher_http_status": 200,
+    "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0021999119303559",
+    "publisher_content_bytes": 2740,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[9] Sun, L.; Gao, H.; Pan, S.; Wang, J. (2020). Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data. Computer Methods in Applied Mechanics and Engineering 361, 112732. https://doi.org/10.1016/j.cma.2019.112732.",
+    "doi": "10.1016/j.cma.2019.112732",
+    "metadata": {
+      "title": [
+        "Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data"
+      ],
+      "author": [
+        {
+          "given": "Luning",
+          "family": "Sun",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Han",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2462-362X",
+          "authenticated-orcid": false,
+          "given": "Shaowu",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9030-1733",
+          "authenticated-orcid": false,
+          "given": "Jian-Xun",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Computer Methods in Applied Mechanics and Engineering"
+      ],
+      "volume": "361",
+      "issue": null,
+      "page": "112732",
+      "article-number": "112732",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            4
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S004578251930622X"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S004578251930622X",
+    "publisher_http_status": 200,
+    "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S004578251930622X",
+    "publisher_content_bytes": 2716,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[10] Zhang, X.; Zhu, Y.; Wang, J.; Ju, L.; Qian, Y.; Ye, M.; Yang, J. (2022). GW-PINN: A deep learning algorithm for solving groundwater flow equations. Advances in Water Resources 165, 104243. https://doi.org/10.1016/j.advwatres.2022.104243.",
+    "doi": "10.1016/j.advwatres.2022.104243",
+    "metadata": {
+      "title": [
+        "GW-PINN: A deep learning algorithm for solving groundwater flow equations"
+      ],
+      "author": [
+        {
+          "given": "Xiaoping",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yan",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jing",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6520-582X",
+          "authenticated-orcid": false,
+          "given": "Lili",
+          "family": "Ju",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yingzhi",
+          "family": "Qian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ming",
+          "family": "Ye",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jinzhong",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Advances in Water Resources"
+      ],
+      "volume": "165",
+      "issue": null,
+      "page": "104243",
+      "article-number": "104243",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            7
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0309170822001142"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S0309170822001142",
+    "publisher_http_status": 200,
+    "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0309170822001142",
+    "publisher_content_bytes": 2688,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[11] Lebreton, L. C. M.; van der Zwet, J.; Damsteeg, J.; Slat, B.; Andrady, A.; Reisser, J. (2017). River plastic emissions to the world\u2019s oceans. Nature Communications 8(1), 15611. https://doi.org/10.1038/ncomms15611.",
+    "doi": "10.1038/ncomms15611",
+    "metadata": {
+      "title": [
+        "River plastic emissions to the world\u2019s oceans"
+      ],
+      "author": [
+        {
+          "given": "Laurent C. M.",
+          "family": "Lebreton",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joost",
+          "family": "van der Zwet",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jan-Willem",
+          "family": "Damsteeg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Boyan",
+          "family": "Slat",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anthony",
+          "family": "Andrady",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julia",
+          "family": "Reisser",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nature Communications"
+      ],
+      "volume": "8",
+      "issue": "1",
+      "page": null,
+      "article-number": "15611",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            7
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/ncomms15611"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://www.nature.com/articles/ncomms15611",
+    "publisher_http_status": 200,
+    "resolved_url": "https://www.nature.com/articles/ncomms15611",
+    "publisher_content_bytes": 3038,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[12] van Emmerik, T.; Schwarz, A. (2020). Plastic debris in rivers. WIREs Water 7(1), e1398. https://doi.org/10.1002/wat2.1398.",
+    "doi": "10.1002/wat2.1398",
+    "metadata": {
+      "title": [
+        "Plastic debris in rivers"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4773-9107",
+          "authenticated-orcid": false,
+          "given": "Tim",
+          "family": "van Emmerik",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Hydrology and Quantitative Water Management Group Wageningen University  Wageningen The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anna",
+          "family": "Schwarz",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Netherlands Organisation for Applied Scientific Research (TNO)  Utrecht The Netherlands"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "WIREs Water"
+      ],
+      "volume": "7",
+      "issue": "1",
+      "page": null,
+      "article-number": "e1398",
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            29
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1398"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://wires.onlinelibrary.wiley.com/doi/10.1002/wat2.1398",
+    "publisher_access": "unavailable: HTTP Error 403: Forbidden"
+  },
+  {
+    "reference": "[13] LeVeque, R. J. (2002). Finite Volume Methods for Hyperbolic Problems. Cambridge University Press . https://doi.org/10.1017/CBO9780511791253.",
+    "doi": "10.1017/CBO9780511791253",
+    "metadata": {
+      "title": [
+        "Finite Volume Methods for Hyperbolic Problems"
+      ],
+      "author": [
+        {
+          "given": "Randall J.",
+          "family": "LeVeque",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [],
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2002,
+            8,
+            26
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://www.cambridge.org/core/product/identifier/9780511791253/type/book"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/9780511791253/type/book",
+    "publisher_http_status": 200,
+    "resolved_url": "https://www.cambridge.org/core/books/finite-volume-methods-for-hyperbolic-problems/97D5D1ACB1926DA1D4D52EAD6909E2B9",
+    "publisher_content_bytes": 1070407,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[14] Morton, K. W., and Mayers, D. F. (2005). Numerical Solution of Partial Differential Equations: An Introduction, second edition. Cambridge University Press. https://doi.org/10.1017/CBO9780511812248.",
+    "doi": "10.1017/CBO9780511812248",
+    "metadata": {
+      "title": [
+        "Numerical Solution of Partial Differential Equations"
+      ],
+      "author": [
+        {
+          "given": "K. W.",
+          "family": "Morton",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "D. F.",
+          "family": "Mayers",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [],
+      "volume": null,
+      "issue": null,
+      "page": null,
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2005,
+            4,
+            11
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://www.cambridge.org/core/product/identifier/9780511812248/type/book"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://www.cambridge.org/core/product/identifier/9780511812248/type/book",
+    "publisher_http_status": 200,
+    "resolved_url": "https://www.cambridge.org/core/books/numerical-solution-of-partial-differential-equations/EB8E5037C4A49F78D91C0AF7EE4CC7FA",
+    "publisher_content_bytes": 949611,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[15] Fischer, H. B., List, E. J., Koh, R. C. Y., Imberger, J., and Brooks, N. H. (1979). Mixing in Inland and Coastal Waters. Academic Press. ISBN 978-0-12-258150-2.",
+    "publisher_url": "https://www.sciencedirect.com/book/9780122581502/mixing-in-inland-and-coastal-waters",
+    "publisher_access": "unavailable: HTTP Error 403: Forbidden"
+  },
+  {
+    "reference": "[16] Karpatne, A.; Atluri, G.; Faghmous, J. H.; Steinbach, M.; Banerjee, A.; Ganguly, A.; Shekhar, S.; Samatova, N.; Kumar, V. (2017). Theory-Guided Data Science: A New Paradigm for Scientific Discovery from Data. IEEE Transactions on Knowledge and Data Engineering 29(10), 2318-2331. https://doi.org/10.1109/TKDE.2017.2720168.",
+    "doi": "10.1109/TKDE.2017.2720168",
+    "metadata": {
+      "title": [
+        "Theory-Guided Data Science: A New Paradigm for Scientific Discovery from Data"
+      ],
+      "author": [
+        {
+          "given": "Anuj",
+          "family": "Karpatne",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gowtham",
+          "family": "Atluri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James H.",
+          "family": "Faghmous",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Steinbach",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arindam",
+          "family": "Banerjee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Auroop",
+          "family": "Ganguly",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shashi",
+          "family": "Shekhar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nagiza",
+          "family": "Samatova",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vipin",
+          "family": "Kumar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Knowledge and Data Engineering"
+      ],
+      "volume": "29",
+      "issue": "10",
+      "page": "2318-2331",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            1
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/7959606/"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "http://ieeexplore.ieee.org/document/7959606/",
+    "publisher_http_status": 202,
+    "resolved_url": "https://ieeexplore.ieee.org/document/7959606/",
+    "publisher_content_bytes": 0,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[17] Cuomo, S.; Di Cola, V. S.; Giampaolo, F.; Rozza, G.; Raissi, M.; Piccialli, F. (2022). Scientific Machine Learning Through Physics\u2013Informed Neural Networks: Where we are and What\u2019s Next. Journal of Scientific Computing 92(3), 88. https://doi.org/10.1007/s10915-022-01939-z.",
+    "doi": "10.1007/s10915-022-01939-z",
+    "metadata": {
+      "title": [
+        "Scientific Machine Learning Through Physics\u2013Informed Neural Networks: Where we are and What\u2019s Next"
+      ],
+      "author": [
+        {
+          "given": "Salvatore",
+          "family": "Cuomo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vincenzo Schiano",
+          "family": "Di Cola",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fabio",
+          "family": "Giampaolo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gianluigi",
+          "family": "Rozza",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maziar",
+          "family": "Raissi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5179-2496",
+          "authenticated-orcid": false,
+          "given": "Francesco",
+          "family": "Piccialli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Journal of Scientific Computing"
+      ],
+      "volume": "92",
+      "issue": "3",
+      "page": null,
+      "article-number": "88",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            26
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1007/s10915-022-01939-z"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://link.springer.com/10.1007/s10915-022-01939-z",
+    "publisher_http_status": 200,
+    "resolved_url": "https://link.springer.com/10.1007/s10915-022-01939-z",
+    "publisher_content_bytes": 3038,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[18] Mamud, M. L.; Mudunuru, M. K.; Karra, S.; Ahmmed, B. (2024). Quantifying local and global mass balance errors in physics-informed neural networks. Scientific Reports 14, 15541. https://doi.org/10.1038/s41598-024-65472-9.",
+    "doi": "10.1038/s41598-024-65472-9",
+    "metadata": {
+      "title": [
+        "Quantifying local and global mass balance errors in physics-informed neural networks"
+      ],
+      "author": [
+        {
+          "given": "M. L.",
+          "family": "Mamud",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M. K.",
+          "family": "Mudunuru",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Karra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "B.",
+          "family": "Ahmmed",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Scientific Reports"
+      ],
+      "volume": "14",
+      "issue": "1",
+      "page": null,
+      "article-number": "15541",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            5
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s41598-024-65472-9"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://www.nature.com/articles/s41598-024-65472-9",
+    "publisher_http_status": 200,
+    "resolved_url": "https://www.nature.com/articles/s41598-024-65472-9",
+    "publisher_content_bytes": 3038,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[19] Vadyala, S. R.; Betgeri, S. N.; Betgeri, N. P. (2022). Physics-informed neural network method for solving one-dimensional advection equation using PyTorch. Array 13, 100110. https://doi.org/10.1016/j.array.2021.100110.",
+    "doi": "10.1016/j.array.2021.100110",
+    "metadata": {
+      "title": [
+        "Physics-informed neural network method for solving one-dimensional advection equation using PyTorch"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6769-6434",
+          "authenticated-orcid": false,
+          "given": "Shashank Reddy",
+          "family": "Vadyala",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sai Nethra",
+          "family": "Betgeri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Naga Parameshwari",
+          "family": "Betgeri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Array"
+      ],
+      "volume": "13",
+      "issue": null,
+      "page": "100110",
+      "article-number": "100110",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            3
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2590005621000515"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://linkinghub.elsevier.com/retrieve/pii/S2590005621000515",
+    "publisher_http_status": 200,
+    "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S2590005621000515",
+    "publisher_content_bytes": 2714,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[20] Karniadakis, G. E.; Kevrekidis, I. G.; Lu, L.; Perdikaris, P.; Wang, S.; Yang, L. (2021). Physics-informed machine learning. Nature Reviews Physics 3(6), 422-440. https://doi.org/10.1038/s42254-021-00314-5.",
+    "doi": "10.1038/s42254-021-00314-5",
+    "metadata": {
+      "title": [
+        "Physics-informed machine learning"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9713-7120",
+          "authenticated-orcid": false,
+          "given": "George Em",
+          "family": "Karniadakis",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ioannis G.",
+          "family": "Kevrekidis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5476-5768",
+          "authenticated-orcid": false,
+          "given": "Lu",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paris",
+          "family": "Perdikaris",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sifan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7476-9168",
+          "authenticated-orcid": false,
+          "given": "Liu",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Nature Reviews Physics"
+      ],
+      "volume": "3",
+      "issue": "6",
+      "page": "422-440",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            24
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://www.nature.com/articles/s42254-021-00314-5"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://www.nature.com/articles/s42254-021-00314-5",
+    "publisher_http_status": 200,
+    "resolved_url": "https://www.nature.com/articles/s42254-021-00314-5",
+    "publisher_content_bytes": 3038,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  },
+  {
+    "reference": "[21] Allen, G. H.; Pavelsky, T. M. (2018). Global extent of rivers and streams. Science 361(6402), 585\u2013588. https://doi.org/10.1126/science.aat0636.",
+    "doi": "10.1126/science.aat0636",
+    "metadata": {
+      "title": [
+        "Global extent of rivers and streams"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8301-5301",
+          "authenticated-orcid": true,
+          "given": "George H.",
+          "family": "Allen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Geological Sciences, University of North Carolina, Chapel Hill, NC, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0613-3838",
+          "authenticated-orcid": true,
+          "given": "Tamlin M.",
+          "family": "Pavelsky",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Geological Sciences, University of North Carolina, Chapel Hill, NC, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "Science"
+      ],
+      "volume": "361",
+      "issue": "6402",
+      "page": "585-588",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            8,
+            10
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://www.science.org/doi/10.1126/science.aat0636"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://www.science.org/doi/10.1126/science.aat0636",
+    "publisher_access": "unavailable: HTTP Error 403: Forbidden"
+  },
+  {
+    "reference": "[22] Barber, R. F., Cand\u00e8s, E. J., Ramdas, A., and Tibshirani, R. J. (2023). Conformal prediction beyond exchangeability. The Annals of Statistics 51(2), 816\u2013845. https://doi.org/10.1214/23-AOS2276.",
+    "doi": "10.1214/23-AOS2276",
+    "metadata": {
+      "title": [
+        "Conformal prediction beyond exchangeability"
+      ],
+      "author": [
+        {
+          "given": "Rina Foygel",
+          "family": "Barber",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Statistics, University of Chicago"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emmanuel J.",
+          "family": "Cand\u00e8s",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Departments of Statistics and Mathematics, Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aaditya",
+          "family": "Ramdas",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Departments of Statistics and Machine Learning, Carnegie Mellon University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ryan J.",
+          "family": "Tibshirani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Departments of Statistics and Machine Learning, Carnegie Mellon University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "container-title": [
+        "The Annals of Statistics"
+      ],
+      "volume": "51",
+      "issue": "2",
+      "page": "816-845",
+      "article-number": null,
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            1
+          ]
+        ]
+      },
+      "resource": {
+        "primary": {
+          "URL": "https://projecteuclid.org/journals/annals-of-statistics/volume-51/issue-2/Conformal-prediction-beyond-exchangeability/10.1214/23-AOS2276.full"
+        }
+      }
+    },
+    "registered_title_present": true,
+    "publisher_url": "https://projecteuclid.org/journals/annals-of-statistics/volume-51/issue-2/Conformal-prediction-beyond-exchangeability/10.1214/23-AOS2276.full",
+    "publisher_http_status": 200,
+    "resolved_url": "https://projecteuclid.org/journals/annals-of-statistics/volume-51/issue-2/Conformal-prediction-beyond-exchangeability/10.1214/23-AOS2276.full",
+    "publisher_content_bytes": 1159,
+    "publisher_access": "retrieved; access alone is not bibliographic verification"
+  }
+]

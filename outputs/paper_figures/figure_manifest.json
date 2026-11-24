@@ -1,0 +1,221 @@
+{
+  "figures": [
+    {
+      "figure": 1,
+      "file": "Fig_01_domain_boundaries.png",
+      "caption": "Synthetic transport domain with a clean-water inlet, zero-gradient outlet and reflecting lateral walls. Shading identifies initial-pulse support, not uniform density. Both upstream diffusive export and downstream advective export enter the mass budget.",
+      "source": "config.py; simulation/finite_volume.py",
+      "sha256": "adbdc9df144ecf9bc06aa05608e4c2cb01272084b07458ab4f975a0fdb8f5c87",
+      "kind": "mathematical schematic"
+    },
+    {
+      "figure": 2,
+      "file": "Fig_02_physical_grid.png",
+      "caption": "Output-grid cell faces in physical coordinates. The plotted grid is 200 \u00d7 23; training labels use 400 \u00d7 48 and the accuracy reference uses 800 \u00d7 92 cells.",
+      "source": "config.py",
+      "sha256": "2693ecde6cd57311f8f4fdb5c875b339d2c406026edc612886674751c5bae5f3",
+      "kind": "mathematical schematic"
+    },
+    {
+      "figure": 3,
+      "file": "Fig_03_workflow.png",
+      "caption": "Implemented training and verification workflow. Numerical labels and the finer evaluation reference have different resolutions. Frozen hydraulic-interpolation tests are separate from supported training configurations; no field-validation dataset is used.",
+      "source": "core/training.py; scripts/run_validation.py; scripts/extended_verification.py",
+      "sha256": "447a3444f50dd5d639c24aa077a1bd8908a728ee61f7a3eba4da4ad809b63818",
+      "kind": "mathematical schematic"
+    },
+    {
+      "figure": 4,
+      "file": "Fig_04_neural_architecture.png",
+      "caption": "Six dimensionless physical inputs are mapped to seven features and passed through three 64-unit Tanh hidden layers. A Softplus output and analytical coordinate/inlet transforms enforce nonnegativity and boundary conditions; initial, PDE and mass constraints remain soft.",
+      "source": "core/pinn_model.py",
+      "sha256": "54a71f2ff20fcb630d0e16147a7bf0f17b6a5da86502c5361206c0613937fe0d",
+      "kind": "mathematical schematic"
+    },
+    {
+      "figure": 5,
+      "file": "Fig_05_optimization_histories.png",
+      "caption": "Recorded hybrid optimization objectives for seed 2026. Adam and L-BFGS use different sampling/objective details and are plotted separately. Closure evaluations include line-search trials and are not optimizer iterations; no monotone convergence is implied.",
+      "source": "outputs/checkpoints/v5/hybrid_2026.history.json; hybrid_2026_final.json",
+      "sha256": "ee271adeb11a533446a8210c40051cd56e61abab1d8890f9db91ec501862dd05",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 6,
+      "file": "Fig_06_finite_volume_fluxes.png",
+      "caption": "Finite-volume control cell and oriented face fluxes. Interior flux contributions cancel between adjacent cells. Advection uses an upwind face value and diffusion uses a central face gradient. Diagram is schematic, not a physical grid.",
+      "source": "simulation/finite_volume.py",
+      "sha256": "19da30a6cefa89a19a25f8d599ae2941f1bf0323ced955fd631977847ade94f9",
+      "kind": "mathematical schematic"
+    },
+    {
+      "figure": 7,
+      "file": "Fig_07_analytical_convergence.png",
+      "caption": "Finite-volume errors against the independent analytical advection\u2013diffusion eigenmode. The dashed line indicates first-order scaling anchored at the coarsest result; the finest reference is not compared with itself.",
+      "source": "outputs/extended_verification_v5/analytical.json",
+      "sha256": "766630748e87766899fd27a90ebfa1819f1f85229c19c2fc7ed463345f3e00c6",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 8,
+      "file": "Fig_08_baseline_error_evolution.png",
+      "caption": "Time-resolved MSE and RMSE against the 800 \u00d7 92 reference restricted to output cells. Synthetic plain/normal configuration; seed 2026; 200 \u00d7 23 output cells; T=300 s.",
+      "source": "outputs/verification_v5/baseline_fields.npz",
+      "sha256": "b8b2eec64410aed2771975508f540171d5171eed44c2908a8841c0473409306d",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 9,
+      "file": "Fig_09_baseline_signed_error.png",
+      "caption": "Signed hybrid prediction minus restricted FVM reference at t=300 s. Synthetic plain/normal configuration; seed 2026; 200 \u00d7 23 output cells; T=300 s.",
+      "source": "outputs/verification_v5/baseline_fields.npz",
+      "sha256": "b272c036f112e61dc971bc4ef24c8026d08abeddca4ee61cb9abcd77e28b7fcf",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 10,
+      "file": "Fig_10_mass_budget.png",
+      "caption": "Flux-inclusive budget residual, normalized by each method\u2019s prescribed-grid initial mass. Neural flux is integrated by the recorded output-time trapezoidal diagnostic; FVM export is integrated during internal steps. Neural maximum absolute budget error is 0.4483%.",
+      "source": "Frozen checkpoint; simulation/validation_suite.py; simulation/finite_volume.py",
+      "sha256": "014b0f29dba57dd57031bb849f16977e9c83a39ac812df0555020a1957f7d78a",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 11,
+      "file": "Fig_11_component_loss_diagnostics.png",
+      "caption": "Unweighted Adam component losses and held-out label MSE for hybrid seed 2026. Validation labels are a split of the numerical label pool, not field observations or the finer evaluation reference. Boundary loss is omitted from the plot because its architectural enforcement keeps it near roundoff.",
+      "source": "outputs/checkpoints/v5/hybrid_2026.history.json",
+      "sha256": "1085e9baa5c96e2ef9926d99a9f7e7f2a421c2ce13489dc90b96b4717d02937f",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 12,
+      "file": "Fig_12_synthetic_scenario_geometry.png",
+      "caption": "Prescribed widths of the four synthetic terrain configurations. All reaches have length 1000 m. This replaces the old geographic-location map; no geographic calibration or surveyed site geometry is implied.",
+      "source": "config.py:TERRAIN",
+      "sha256": "af06275978af3797e701458cbf74202f6f191208406588e9999892f9673a1458",
+      "kind": "prescribed geometry/initial condition"
+    },
+    {
+      "figure": 13,
+      "file": "Fig_13_initial_condition.png",
+      "caption": "Prescribed compact initial pulse sampled at output-cell centres. It is independent of the neural prediction and common to both formulations. Initial support is 100<x<400 m, with transverse modulation; density is in kg/m\u00b2.",
+      "source": "config.py:initial_field",
+      "sha256": "735e8eab59048141e9de8b252032fddd60e6cb1e24758b5bf0943c48d2eb1154",
+      "kind": "prescribed geometry/initial condition"
+    },
+    {
+      "figure": 14,
+      "file": "Fig_14_neural_field.png",
+      "caption": "Hybrid PINN field at 300 s. Identical axes and colour limits are used in Figs. 14 and 15. Synthetic plain/normal configuration; seed 2026; 200 \u00d7 23 output cells; T=300 s.",
+      "source": "outputs/verification_v5/baseline_fields.npz",
+      "sha256": "989328b80fd72232009c7e52ca7d4dfca5c8bb0cedc7b51e1cf4c777952b33c1",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 15,
+      "file": "Fig_15_reference_field.png",
+      "caption": "FVM reference field at 300 s. Identical axes and colour limits are used in Figs. 14 and 15. Synthetic plain/normal configuration; seed 2026; 200 \u00d7 23 output cells; T=300 s.",
+      "source": "outputs/verification_v5/baseline_fields.npz",
+      "sha256": "d9213926d06a6289f4ffae306bbdbf83475764c0a77f749d92428ce4e1a5e68c",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 16,
+      "file": "Fig_16_relative_error_evolution.png",
+      "caption": "Per-time relative L2 error of the baseline hybrid prediction. The final-time value is 2.1648%; the joint space\u2013time relative L2 is 1.2318% and is a different statistic. This replaces the duplicated MSE figure.",
+      "source": "outputs/verification_v5/baseline_fields.npz",
+      "sha256": "61f904ff9a7b6037903ac0c8a84f3e2cd31855311eb6194ab16f00d579f8a725",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 17,
+      "file": "Fig_17_signed_error_snapshots.png",
+      "caption": "Baseline signed errors at 100, 200 and 300 s, with shared symmetric colour limits. Seed 2026; all axes are physical coordinates.",
+      "source": "outputs/verification_v5/baseline_fields.npz",
+      "sha256": "f2f12bb5e99766836af8f6114a6ea4b5c36ce38662d754373f766cd397b890b5",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 18,
+      "file": "Fig_18_mass_and_export.png",
+      "caption": "Remaining mass and cumulative outward boundary export for the baseline. Decreasing in-domain mass is expected as the pulse exits. Conservation is assessed through their sum and the initial mass, as in Fig. 10.",
+      "source": "Frozen checkpoint; simulation/validation_suite.py; simulation/finite_volume.py",
+      "sha256": "e16141f23ea031e2b50728ac8a8ae30e31ecdb8c2ed85d30d5e36b8611abb085",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 19,
+      "file": "Fig_19_runtime_mean_sd.png",
+      "caption": "Measured CPU rollout time for equal 200 \u00d7 23 \u00d7 61 output workloads. AMD Ryzen 9 8940HX; two PyTorch threads; ten repetitions after one warm-up, alternating order. Training and loading are excluded. Neural inference is approximately 6.33 times slower.",
+      "source": "outputs/verification_v5/timings.json:hybrid_2026_plain_normal",
+      "sha256": "00f85fcf38a90a57c7a7251115a4de4d25732c8e9de0eb28abddc83cb0c3464e",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 20,
+      "file": "Fig_20_formulation_comparison.png",
+      "caption": "Baseline final fields at 300 s for the FVM reference, hybrid and data-only models, using shared colour limits and seed 2026. Both neural models share positivity/boundary architecture; hybrid training additionally uses physical and integrated-mass information. Three-seed statistics are reported in Table X.",
+      "source": "outputs/verification_v5/baseline_fields.npz; outputs/checkpoints/v5/data_only_2026_final.pt",
+      "sha256": "a6537520a9ce185dcf85da5070808001b59011b328555b4708e5f5cc34a92e1b",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 21,
+      "file": "Fig_21_mountain_wet_field.png",
+      "caption": "Mountain/wet prediction at 100 s. Seed 2026; width 52.8 m. This snapshot is explicitly at 100 s, while reported scenario metrics cover the complete 0\u2013300 s trajectory.",
+      "source": "Frozen hybrid_2026_final.pt; evaluate(make_experiment(\"mountain\",\"wet\"))",
+      "sha256": "1f91c42cd79bd8557d4bd2b40eb39eb96ce90d1dbfa9040312a67ca958ff236e",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 22,
+      "file": "Fig_22_mountain_wet_error.png",
+      "caption": "Mountain/wet signed error at 100 s. Seed 2026; width 52.8 m. This snapshot is explicitly at 100 s, while reported scenario metrics cover the complete 0\u2013300 s trajectory.",
+      "source": "Frozen hybrid_2026_final.pt; evaluate(make_experiment(\"mountain\",\"wet\"))",
+      "sha256": "c0ad20fea1cda0b836eedbfc140a073379715c9713a05f65f4790d87a808a1e9",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 23,
+      "file": "Fig_23_residual_half_width.png",
+      "caption": "Pointwise 90th-percentile absolute residual from the first 30 output times (0\u2013145 s). Half-widths define descriptive numerical residual intervals, not guaranteed conformal intervals or field uncertainty. Evaluation on the remaining 31 times yields 72.5989% coverage.",
+      "source": "outputs/verification_v5/baseline_fields.npz; simulation/uncertainty_quantification.py",
+      "sha256": "4ffd6e8392b840adb985e4c1859479ffc2d183be698a34bc96f975ec2522c3c5",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 24,
+      "file": "Fig_24_empirical_coverage.png",
+      "caption": "Empirical coverage on output times 150\u2013300 s using half-widths estimated on 0\u2013145 s. The diagonal is nominal equality, not a fitted calibration curve. Temporal dependence prevents claiming an exchangeability-based coverage guarantee.",
+      "source": "outputs/verification_v5/baseline_fields.npz; simulation/uncertainty_quantification.py",
+      "sha256": "30b691760115bb356dce92017ce6ca27761bc8d8f7a449639962cf11a917f60a",
+      "kind": "recorded numerical result"
+    },
+    {
+      "figure": 25,
+      "file": "Fig_25_runtime_repetitions.png",
+      "caption": "All ten recorded baseline CPU timing repetitions under the protocol of Fig. 19. Execution order alternates; these are the original recorded timings, not new measurements. This is Fig. 25 in the revised document and replaces Fig. 26 in the original.",
+      "source": "outputs/verification_v5/timings.json:hybrid_2026_plain_normal",
+      "sha256": "60ddcf14c30ff2526d4f65af8efbe7b96b6bb6a05b759f459b0efed03bd7e92c",
+      "kind": "recorded numerical result"
+    }
+  ],
+  "source_sha256": {
+    "outputs\\verification_v5\\baseline_fields.npz": "9827717bbc159509b96e268943f91f72cd7f73a4e188c288a43b31a9f09e873d",
+    "outputs\\verification_v5\\metrics.json": "c4fd462203f8dcdbbdf186160040705aec41f6226b63a293de25c75b6ad8adc5",
+    "outputs\\verification_v5\\timings.json": "d571ca6855668570eaa6736dd36e50bc111851640d231d6e2fb2eba04030e7be",
+    "outputs\\checkpoints\\v5\\hybrid_2026_final.pt": "80d8d3c1c8bbde03edf9300bbe59e0b5bdef2dd5e1ade83702264fcfbcc8c813",
+    "outputs\\checkpoints\\v5\\data_only_2026_final.pt": "44ecb06659a2363252e5853ccedb858a66572153df692957c8e69ebfedf8bd1e",
+    "config.py": "20ea950ec681a82bf615587e126d38789e172bf85cef5abd1d504d6e348ee17a",
+    "core\\pinn_model.py": "4c0d8d768d68b38db67fad266cc276ec0c37109b90d998db5a035ee64ef21b1e",
+    "simulation\\validation_suite.py": "ab97ea94c0b14e1489a4d0abaee5492d288ca61c3829853299f1e7e8138e6b45",
+    "simulation\\finite_volume.py": "d453abeec87c10cbe62118c8a97bbd101c77fa5c950b7abd0a291b794fc6f893"
+  },
+  "checked_against_saved_metrics": true,
+  "retrained": false,
+  "baseline_l2": 0.01231810513593007,
+  "baseline_budget": 0.004482990539218058,
+  "baseline_coverage": 0.7259887798036465,
+  "mountain_l2": 0.01826463754203293
+}

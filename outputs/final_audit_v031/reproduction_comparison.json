@@ -1,0 +1,13 @@
+{
+  "cases": 72,
+  "passed": 72,
+  "max_metric_absolute_differences": {
+    "relative_l2_spacetime": 0.0,
+    "mass_balance_relative_error": 0.0,
+    "initial_relative_l2": 0.0,
+    "minimum_density_kg_m2": 0.0
+  },
+  "max_baseline_array_difference": 0.0,
+  "timing_policy": "Fresh timings are retained separately; manuscript timings remain the declared original ten-repeat experiment, not selected from reruns.",
+  "checkpoints": "No training or checkpoint replacement in this audit."
+}

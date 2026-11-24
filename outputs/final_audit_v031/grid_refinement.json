@@ -1,0 +1,23 @@
+{
+  "rows": [
+    {
+      "nx": 200,
+      "ny": 23,
+      "rmse_vs_restricted_finest": 1.469985058581432e-05,
+      "mass_balance_relative_error": 0.0
+    },
+    {
+      "nx": 400,
+      "ny": 46,
+      "rmse_vs_restricted_finest": 6.3974404580061045e-06,
+      "mass_balance_relative_error": 1.6518899276047685e-16
+    },
+    {
+      "nx": 800,
+      "ny": 92,
+      "rmse_vs_restricted_finest": 0.0,
+      "mass_balance_relative_error": 0.0
+    }
+  ],
+  "note": "Finest self-error is zero by construction, not proof of zero discretization error. No convergence order inferred from two nonzero comparisons."
+}
